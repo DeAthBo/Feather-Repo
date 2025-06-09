@@ -1,0 +1,55 @@
+name: Update Kazumi Repo JSON from Release
+
+on:
+  schedule:
+    - cron: "0 * * * *" # 每小时检查一次
+  workflow_dispatch:
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Feather-Repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Fetch latest Kazumi release info
+        id: kazumi
+        run: |
+          curl -s https://api.github.com/repos/Predidit/Kazumi/releases/latest > latest.json
+          VERSION=$(jq -r .tag_name latest.json)
+          NAME=$(jq -r .name latest.json)
+          DESCRIPTION=$(jq -r .body latest.json)
+          DOWNLOAD=$(jq -r '.assets[] | select(.name | endswith(".ipa")) | .browser_download_url' latest.json)
+          ICON="https://github.com/Predidit/Kazumi/raw/main/icon.png"
+          AUTHOR="Predidit"
+          REPO="https://github.com/Predidit/Kazumi"
+          TAGS='["tool","sideload","utility"]'
+          jq -n --arg name "$NAME" \
+                --arg description "$DESCRIPTION" \
+                --arg author "$AUTHOR" \
+                --arg repo "$REPO" \
+                --arg version "$VERSION" \
+                --arg download "$DOWNLOAD" \
+                --arg icon "$ICON" \
+                --argjson tags "$TAGS" \
+                '[{
+                  name: $name,
+                  description: $description,
+                  author: $author,
+                  repo: $repo,
+                  version: $version,
+                  download: $download,
+                  icon: $icon,
+                  tags: $tags
+                }]' > kazumi.json
+
+      - name: Copy Kazumi info to repo.json
+        run: mv kazumi.json repo.json
+
+      - name: Commit & Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Kazumi info from latest release"
+          branch: main

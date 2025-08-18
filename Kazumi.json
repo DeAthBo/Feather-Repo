@@ -1,0 +1,27 @@
+{
+  "apps": [
+    {
+      "beta": false,
+      "bundleIdentifier": "com.predidit.kazumi",
+      "developerName": "Predidit",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.7/Kazumi_ios_1.7.7_no_sign.ipa",
+      "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/icon/icon.png",
+      "localizedDescription": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
+      "name": "Kazumi",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/screenshots/1.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/screenshots/2.png"
+      ],
+      "size": 0,
+      "subtitle": "Cross-platform anime streaming app with danmaku support",
+      "tintColor": "4CAF50",
+      "version": "1.7.7",
+      "versionDate": "2025-08-17T13:44:41Z",
+      "versionDescription": "- 适配 flutter 3.35\n- 重构 Linux 平台视频解析器\n- 修复桌面平台 webdav 自动同步不稳定的问题\n- 修复详情页返回搜索页时输入法总是弹出的问题\n- 调整弹幕设置页面视觉效果\n- 改进的 android/iOS/macOS 视频解析器调试日志"
+    }
+  ],
+  "identifier": "com.predidit.kazumi",
+  "name": "Kazumi",
+  "news": [],
+  "userInfo": {}
+}

@@ -1,4 +1,4 @@
-name: Update AltSource.json
+name: Update Kazumi Repo JSON from Kazumi Releases
 
 on:
   schedule:
@@ -25,11 +25,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests PyGithub
 
-      - name: Check releases and update AltSource.json
+      - name: Check releases and update kazumi.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cat > update_altsource.py << 'EOF'
+          cat > update_kazumi.py << 'EOF'
           import json
           import os
           from datetime import datetime
@@ -59,12 +59,12 @@ jobs:
                   print("No IPA file found in latest release")
                   return
               
-              # 读取现有的AltSource.json
+              # 读取现有的kazumi.json
               try:
-                  with open('AltSource.json', 'r', encoding='utf-8') as f:
+                  with open('kazumi.json', 'r', encoding='utf-8') as f:
                       source_data = json.load(f)
               except FileNotFoundError:
-                  print("AltSource.json not found")
+                  print("kazumi.json not found")
                   return
               
               # 更新版本信息
@@ -77,21 +77,21 @@ jobs:
               })
               
               # 保存更新后的文件
-              with open('AltSource.json', 'w', encoding='utf-8') as f:
+              with open('kazumi.json', 'w', encoding='utf-8') as f:
                   json.dump(source_data, f, ensure_ascii=False, indent=2)
 
           if __name__ == '__main__':
               main()
           EOF
           
-          python update_altsource.py
+          python update_kazumi.py
 
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add AltSource.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update AltSource.json with latest release info [skip ci]"
+          git add kazumi.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update kazumi.json with latest release info [skip ci]"
 
       - name: Push changes
         run: git push

@@ -64,31 +64,8 @@ jobs:
                   with open('piliplus.json', 'r', encoding='utf-8') as f:
                       source_data = json.load(f)
               except FileNotFoundError:
-                  # 如果文件不存在，创建基本结构
-                  source_data = {
-                      "identifier": "com.bggRGjQaUbCoE.PiliPlus",
-                      "sourceURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/piliplus.json",
-                      "apps": [
-                          {
-                              "name": "PiliPlus",
-                              "bundleIdentifier": "com.bggRGjQaUbCoE.PiliPlus",
-                              "developerName": "bggRGjQaUbCoE",
-                              "subtitle": "第三方哔哩哔哩客户端",
-                              "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。",
-                              "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/images/logo/logo.png",
-                              "tintColor": "#FB7299",
-                              "screenshotURLs": [
-                                  "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
-                                  "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
-                              ],
-                              "version": "",
-                              "versionDate": "",
-                              "downloadURL": "",
-                              "size": 0,
-                              "versionDescription": ""
-                          }
-                      ]
-                  }
+                  print("piliplus.json not found")
+                  return
               
               # 更新版本信息
               source_data['apps'][0].update({

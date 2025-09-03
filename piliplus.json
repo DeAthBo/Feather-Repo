@@ -1,24 +1,27 @@
 {
-  "identifier": "com.bggRGjQaUbCoE.PiliPlus",
-  "sourceURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/piliplus.json",
   "apps": [
     {
-      "name": "PiliPlus",
+      "beta": false,
       "bundleIdentifier": "com.bggRGjQaUbCoE.PiliPlus",
       "developerName": "bggRGjQaUbCoE",
-      "subtitle": "第三方哔哩哔哩客户端",
-      "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.3/ios-release-no-sign.ipa",
       "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/images/logo/logo.png",
-      "tintColor": "#FB7299",
+      "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。",
+      "name": "PiliPlus",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
+      "size": 23297470,
+      "subtitle": "第三方哔哩哔哩客户端",
+      "tintColor": "FB7299",
       "version": "1.1.4.3",
       "versionDate": "2025-08-29T08:59:16Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.3/ios-release-no-sign.ipa",
-      "size": 23297470,
       "versionDescription": "修复 #1156 #1159 #1169 #1173\r\n新的 Marquee 实现 #1157 by @My-Responsitories\r\n新增 bgm 跳转，查看 bgm 页面功能 #1157 by @My-Responsitories"
     }
-  ]
+  ],
+  "identifier": "com.bggRGjQaUbCoE.PiliPlus",
+  "name": "PiliPlus",
+  "news": [],
+  "userInfo": {}
 }

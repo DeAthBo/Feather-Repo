@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -134,25 +133,19 @@ jobs:
           
           python update_repo_json.py
 
-      - name: Create Pull Request for Kazumi
+      - name: Commit and push changes for Kazumi
         if: steps.update_kazumi_script.outputs.updated == 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: update kazumi.json with latest release info"
-          title: "chore: Update Kazumi JSON"
-          body: "This is an automated PR to update `kazumi.json` with the latest release information from Predidit/Kazumi."
-          branch: "chore/update-kazumi-json"
-          base: "main"
-          delete-branch-if-exists: true
-          labels: "automated, dependency"
-          assignees: "DeAthBo"
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add kazumi.json
+          git commit -m "chore: update kazumi.json with latest release info"
+          git push
 
   update-piliplus:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -315,16 +308,11 @@ jobs:
           
           python update_repo_json.py
 
-      - name: Create Pull Request for PiliPlus
+      - name: Commit and push changes for PiliPlus
         if: steps.update_piliplus_script.outputs.updated == 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: update piliplus.json with latest release info"
-          title: "chore: Update PiliPlus JSON"
-          body: "This is an automated PR to update `piliplus.json` with the latest release information from bggRGjQaUbCoE/PiliPlus."
-          branch: "chore/update-piliplus-json"
-          base: "main"
-          delete-branch-if-exists: true
-          labels: "automated, dependency"
-          assignees: "DeAthBo"
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add piliplus.json
+          git commit -m "chore: update piliplus.json with latest release info"
+          git push

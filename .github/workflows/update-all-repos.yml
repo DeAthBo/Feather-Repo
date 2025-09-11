@@ -200,9 +200,7 @@ jobs:
           # 提交更改
           UPDATED_FILES="${{ steps.update_all.outputs.files }}"
           if [ -n "$UPDATED_FILES" ]; then
-            git commit -m "chore: update JSON files with latest release info
-
-Updated files: $UPDATED_FILES"
+            git commit -m "chore: update JSON files with latest release info - Updated files: $UPDATED_FILES"
           else
             git commit -m "chore: update JSON files with latest release info"
           fi

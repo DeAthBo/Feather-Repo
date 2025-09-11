@@ -136,9 +136,26 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull origin main --rebase
+          
+          # 检查是否有更改
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          # 暂存更改
           git add kazumi.json
-          git commit -m "chore: update kazumi.json with latest release info"
+          
+          # 拉取最新更改并尝试自动合并
+          git fetch origin main
+          if ! git rebase origin/main; then
+            echo "Rebase failed, trying merge strategy"
+            git rebase --abort
+            git pull origin main --no-rebase
+          fi
+          
+          # 提交并推送
+          git commit -m "chore: update kazumi.json with latest release info" || echo "Nothing to commit"
           git push origin main
 
   update-piliplus:
@@ -313,7 +330,24 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull origin main --rebase
+          
+          # 检查是否有更改
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          # 暂存更改
           git add piliplus.json
-          git commit -m "chore: update piliplus.json with latest release info"
+          
+          # 拉取最新更改并尝试自动合并
+          git fetch origin main
+          if ! git rebase origin/main; then
+            echo "Rebase failed, trying merge strategy"
+            git rebase --abort
+            git pull origin main --no-rebase
+          fi
+          
+          # 提交并推送
+          git commit -m "chore: update piliplus.json with latest release info" || echo "Nothing to commit"
           git push origin main

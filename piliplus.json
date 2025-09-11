@@ -4,7 +4,7 @@
       "beta": false,
       "bundleIdentifier": "com.bggRGjQaUbCoE.PiliPlus",
       "developerName": "bggRGjQaUbCoE",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.3/ios-release-no-sign.ipa",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.4/ios-release-no-sign.ipa",
       "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/images/logo/logo.png",
       "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。",
       "name": "PiliPlus",
@@ -12,12 +12,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "size": 23297470,
+      "size": 23265542,
       "subtitle": "第三方哔哩哔哩客户端",
       "tintColor": "FB7299",
-      "version": "1.1.4.3",
-      "versionDate": "2025-08-29T08:59:16Z",
-      "versionDescription": "修复 #1156 #1159 #1169 #1173\r\n新的 Marquee 实现 #1157 by @My-Responsitories\r\n新增 bgm 跳转，查看 bgm 页面功能 #1157 by @My-Responsitories"
+      "version": "1.1.4.4",
+      "versionDate": "2025-09-10T05:24:46Z",
+      "versionDescription": "页面优化\r\n优化 #826\r\n支持显示直播 SuperChat，默认开\r\n优化 AI总结 toast #1197 by @zjns\r\n新增键盘控制播放 #1203 by @zjns\r\n页面优化 #1187 by @My-Responsitories\r\n优化保存 bgm 评论 #1177 #1187 by @My-Responsitories\r\n实现dynaudnorm和webp_anim支持 #1186 by @My-Responsitories\r\n\r\n修复 #1164 #1198\r\n修复 dolby 视频播放 #1202 by @zjns\r\n修复 mac 平台应用名称 #1199 by @zjns\r\n修复bug\r\n\r\n其他"
     }
   ],
   "identifier": "com.bggRGjQaUbCoE.PiliPlus",

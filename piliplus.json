@@ -1,27 +1,56 @@
 {
+  "identifier": "com.bggRGjQaUbCoE.PiliPlus",
+  "name": "PiliPlus",
+  "sourceURL": "https://raw.githubusercontent.com/your-username/your-repo/main/piliplus.json",
   "apps": [
     {
-      "beta": false,
+      "name": "PiliPlus",
       "bundleIdentifier": "com.bggRGjQaUbCoE.PiliPlus",
       "developerName": "bggRGjQaUbCoE",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.4/ios-release-no-sign.ipa",
+      "subtitle": "第三方哔哩哔哩客户端",
+      "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。\n\n主要功能：\n- 去除广告，纯净体验\n- 支持高清视频播放\n- 优化的用户界面\n- 支持弹幕功能\n- 离线缓存支持\n- 多账户管理",
       "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/images/logo/logo.png",
-      "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。",
-      "name": "PiliPlus",
+      "tintColor": "FB7299",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "size": 23265542,
-      "subtitle": "第三方哔哩哔哩客户端",
-      "tintColor": "FB7299",
-      "version": "1.1.4.4",
-      "versionDate": "2025-09-10T05:24:46Z",
-      "versionDescription": "页面优化\r\n优化 #826\r\n支持显示直播 SuperChat，默认开\r\n优化 AI总结 toast #1197 by @zjns\r\n新增键盘控制播放 #1203 by @zjns\r\n页面优化 #1187 by @My-Responsitories\r\n优化保存 bgm 评论 #1177 #1187 by @My-Responsitories\r\n实现dynaudnorm和webp_anim支持 #1186 by @My-Responsitories\r\n\r\n修复 #1164 #1198\r\n修复 dolby 视频播放 #1202 by @zjns\r\n修复 mac 平台应用名称 #1199 by @zjns\r\n修复bug\r\n\r\n其他"
+      "version": "",
+      "versionDate": "",
+      "downloadURL": "",
+      "size": 0,
+      "versionDescription": "",
+      "changelog": "",
+      "minOSVersion": "13.0",
+      "contact": {
+        "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
+      },
+      "information": [
+        {
+          "item": "Flutter",
+          "version": "Latest",
+          "authors": "Flutter Team",
+          "url": "https://flutter.dev"
+        },
+        {
+          "item": "PiliPlus Core",
+          "version": "Latest",
+          "authors": "bggRGjQaUbCoE",
+          "url": "https://github.com/bggRGjQaUbCoE/PiliPlus"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {
+          "NSNetworkUsageDescription": "用于获取哔哩哔哩视频内容",
+          "NSPhotoLibraryUsageDescription": "用于保存图片和视频到相册",
+          "NSCameraUsageDescription": "用于扫描二维码登录",
+          "NSMicrophoneUsageDescription": "用于录制和发布视频"
+        }
+      },
+      "versions": [],
+      "beta": false
     }
   ],
-  "identifier": "com.bggRGjQaUbCoE.PiliPlus",
-  "name": "PiliPlus",
   "news": [],
   "userInfo": {}
 }

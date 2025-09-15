@@ -1,13 +1,16 @@
 {
+  "identifier": "com.predidit.kazumi",
+  "name": "Kazumi",
+  "sourceURL": "https://raw.githubusercontent.com/your-username/your-repo/main/kazumi.json",
   "apps": [
     {
-      "beta": false,
+      "name": "Kazumi",
       "bundleIdentifier": "com.predidit.kazumi",
       "developerName": "Predidit",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.9/Kazumi_ios_1.7.9_no_sign.ipa",
-      "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/images/logo/logo_ios.png",
+      "subtitle": "开源动漫播放器",
       "localizedDescription": "Kazumi 是一个开源的动漫资源采集播放器，支持 Android、iOS、macOS、Windows 和 Linux。\n\n主要功能：\n- 支持多个动漫源，无需服务器\n- 实时在线播放，支持弹幕系统\n- AI超分辨率提升视频画质\n- 本地媒体库管理\n- WebDAV同步观看进度\n- 多语言界面",
-      "name": "Kazumi",
+      "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/images/logo/logo_ios.png",
+      "tintColor": "FF6B6B",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_1.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_2.png",
@@ -16,16 +19,51 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "size": 21992363,
-      "subtitle": "开源动漫播放器",
-      "tintColor": "FF6B6B",
       "version": "1.7.9",
       "versionDate": "2025-09-10T14:49:26Z",
-      "versionDescription": "- 重新设计的番剧时间表页面 (@Predidit)\r\n- 改进的番组趋势页面 (@Predidit)\r\n- 修复 webdav 无法同步追番列表的问题 (#1263) (#1266) (@floating142)\r\n- 修复特定情况下 windows 快捷键不生效的问题 (#858) (@INKCR0W)\r\n- 调整历史记录页面视觉效果 (@Predidit)"
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.9/Kazumi_ios_1.7.9_no_sign.ipa",
+      "size": 21992363,
+      "versionDescription": "- 重新设计的番剧时间表页面 (@Predidit)\r\n- 改进的番组趋势页面 (@Predidit)\r\n- 修复 webdav 无法同步追番列表的问题 (#1263) (#1266) (@floating142)\r\n- 修复特定情况下 windows 快捷键不生效的问题 (#858) (@INKCR0W)\r\n- 调整历史记录页面视觉效果 (@Predidit)",
+      "changelog": "- 重新设计的番剧时间表页面 (@Predidit)\r\n- 改进的番组趋势页面 (@Predidit)\r\n- 修复 webdav 无法同步追番列表的问题 (#1263) (#1266) (@floating142)\r\n- 修复特定情况下 windows 快捷键不生效的问题 (#858) (@INKCR0W)\r\n- 调整历史记录页面视觉效果 (@Predidit)",
+      "minOSVersion": "13.0",
+      "contact": {
+        "web": "https://github.com/Predidit/Kazumi"
+      },
+      "information": [
+        {
+          "item": "Flutter",
+          "version": "Latest",
+          "authors": "Flutter Team",
+          "url": "https://flutter.dev"
+        },
+        {
+          "item": "Kazumi Core",
+          "version": "1.7.9",
+          "authors": "Predidit",
+          "url": "https://github.com/Predidit/Kazumi"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {
+          "NSNetworkUsageDescription": "用于获取动漫资源和在线播放",
+          "NSPhotoLibraryUsageDescription": "用于保存截图到相册",
+          "NSMicrophoneUsageDescription": "用于语音搜索功能",
+          "NSCameraUsageDescription": "用于扫描二维码功能"
+        }
+      },
+      "versions": [
+        {
+          "version": "1.7.9",
+          "date": "2025-09-10",
+          "localizedDescription": "- 重新设计的番剧时间表页面 (@Predidit)\r\n- 改进的番组趋势页面 (@Predidit)\r\n- 修复 webdav 无法同步追番列表的问题 (#1263) (#1266) (@floating142)\r\n- 修复特定情况下 windows 快捷键不生效的问题 (#858) (@INKCR0W)\r\n- 调整历史记录页面视觉效果 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.9/Kazumi_ios_1.7.9_no_sign.ipa",
+          "size": 21992363,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "beta": false
     }
   ],
-  "identifier": "com.predidit.kazumi",
-  "name": "Kazumi",
   "news": [],
   "userInfo": {}
 }

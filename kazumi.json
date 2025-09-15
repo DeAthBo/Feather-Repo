@@ -1,7 +1,7 @@
 {
   "identifier": "com.predidit.kazumi",
   "name": "Kazumi",
-  "sourceURL": "https://raw.githubusercontent.com/your-username/your-repo/main/kazumi.json",
+  "sourceURL": "https://github.com/Predidit/Kazumi",
   "apps": [
     {
       "name": "Kazumi",

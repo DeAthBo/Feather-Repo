@@ -37,37 +37,7 @@ jobs:
           from github import Github
           import requests
 
-          def get_file_size(url):
-              response = requests.head(url)
-              return int(response.headers.get('content-length', 0))
-
-          def create_initial_piliplus_json():
-              return {
-                  "identifier": "com.bggRGjQaUbCoE.PiliPlus",
-                  "sourceURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/piliplus.json",
-                  "apps": [
-                      {
-                          "name": "PiliPlus",
-                          "bundleIdentifier": "com.bggRGjQaUbCoE.PiliPlus",
-                          "developerName": "bggRGjQaUbCoE",
-                          "subtitle": "第三方哔哩哔哩客户端",
-                          "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。",
-                          "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/images/logo/logo.png",
-                          "tintColor": "#FB7299",
-                          "screenshotURLs": [
-                              "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
-                              "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
-                          ],
-                          "version": "",
-                          "versionDate": "",
-                          "downloadURL": "",
-                          "size": 0,
-                          "versionDescription": ""
-                      }
-                  ]
-              }
-
-          def update_repo_json(repo_owner, repo_name, json_file_name, initial_json_func=None):
+          def update_repo_json(repo_owner, repo_name, json_file_name):
               github_token = os.environ['GITHUB_TOKEN']
               g = Github(github_token)
               
@@ -85,33 +55,14 @@ jobs:
                       print(f"[{json_file_name}] No IPA file found in latest release for {repo_owner}/{repo_name}. Skipping update.")
                       return False
                   
-                  source_data = {}
-                  file_exists = os.path.exists(json_file_name)
-                  file_was_created = False
-
-                  if file_exists:
-                      try:
-                          with open(json_file_name, 'r', encoding='utf-8') as f:
-                              source_data = json.load(f)
-                          print(f"[{json_file_name}] Loaded existing data.")
-                      except json.JSONDecodeError:
-                          print(f"[{json_file_name}] Existing {json_file_name} is invalid. Attempting to recreate.")
-                          if initial_json_func:
-                              source_data = initial_json_func()
-                              file_was_created = True
-                              print(f"[{json_file_name}] Recreated initial data from function.")
-                          else:
-                              print(f"[{json_file_name}] No valid initial JSON function for recreation. Aborting.")
-                              return False
-                  else:
-                      print(f"[{json_file_name}] {json_file_name} not found locally. Attempting to create new.")
-                      if initial_json_func:
-                          source_data = initial_json_func()
-                          file_was_created = True
-                          print(f"[{json_file_name}] Created initial data from function.")
-                      else:
-                          print(f"[{json_file_name}] No initial JSON function specified and {json_file_name} does not exist. Cannot proceed.")
-                          return False
+                  # 读取现有JSON文件
+                  try:
+                      with open(json_file_name, 'r', encoding='utf-8') as f:
+                          source_data = json.load(f)
+                      print(f"[{json_file_name}] Loaded existing data.")
+                  except (FileNotFoundError, json.JSONDecodeError) as e:
+                      print(f"[{json_file_name}] Error reading {json_file_name}: {str(e)}")
+                      return False
 
                   if 'apps' not in source_data or not source_data['apps']:
                       print(f"[{json_file_name}] 'apps' array not found or is empty in {json_file_name}.")
@@ -124,17 +75,43 @@ jobs:
                   current_download_url = app_data.get('downloadURL','')
                   new_download_url = ipa_asset.browser_download_url
 
-                  if not file_was_created and current_version == new_version and current_download_url == new_download_url:
+                  if current_version == new_version and current_download_url == new_download_url:
                       print(f"[{json_file_name}] Current version '{current_version}' is already the latest with same download URL. No update needed.")
                       return False
 
+                  # 更新主要版本信息
                   app_data.update({
                       'version': new_version,
                       'versionDate': latest_release.published_at.strftime("%Y-%m-%dT%H:%M:%SZ"),
                       'downloadURL': new_download_url,
                       'size': ipa_asset.size,
-                      'versionDescription': latest_release.body
+                      'versionDescription': latest_release.body,
+                      'changelog': latest_release.body
                   })
+
+                  # 更新或创建versions数组
+                  if 'versions' not in app_data:
+                      app_data['versions'] = []
+                  
+                  # 检查是否已存在该版本
+                  version_exists = any(v.get('version') == new_version for v in app_data['versions'])
+                  
+                  if not version_exists:
+                      # 添加新版本到versions数组开头
+                      new_version_entry = {
+                          'version': new_version,
+                          'date': latest_release.published_at.strftime("%Y-%m-%d"),
+                          'localizedDescription': latest_release.body,
+                          'downloadURL': new_download_url,
+                          'size': ipa_asset.size,
+                          'minOSVersion': app_data.get('minOSVersion', '13.0')
+                      }
+                      app_data['versions'].insert(0, new_version_entry)
+                      
+                      # 保持最多20个版本
+                      if len(app_data['versions']) > 20:
+                          app_data['versions'] = app_data['versions'][:20]
+
                   print(f"[{json_file_name}] Updated version to: {new_version}")
 
                   with open(json_file_name, 'w', encoding='utf-8') as f:
@@ -165,7 +142,7 @@ jobs:
               
               # 更新 PiliPlus
               print("\n=== Updating PiliPlus ===")
-              if update_repo_json("bggRGjQaUbCoE", "PiliPlus", "piliplus.json", create_initial_piliplus_json):
+              if update_repo_json("bggRGjQaUbCoE", "PiliPlus", "piliplus.json"):
                   updated_files.append("piliplus.json")
               
               if updated_files:
@@ -188,16 +165,13 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # 添加所有更改的文件
           git add -A
           
-          # 检查是否有更改需要提交
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
           fi
           
-          # 提交更改
           UPDATED_FILES="${{ steps.update_all.outputs.files }}"
           if [ -n "$UPDATED_FILES" ]; then
             git commit -m "chore: update JSON files with latest release info - Updated files: $UPDATED_FILES"
@@ -205,5 +179,4 @@ jobs:
             git commit -m "chore: update JSON files with latest release info"
           fi
           
-          # 推送到 main 分支
           git push origin main

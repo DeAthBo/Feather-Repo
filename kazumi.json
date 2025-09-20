@@ -19,12 +19,12 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "version": "1.8.0",
-      "versionDate": "2025-09-18T13:38:27Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.0/Kazumi_ios_1.8.0_no_sign.ipa",
-      "size": 21989645,
-      "versionDescription": "- 重新设计的 windows 平台视频解析器 (@Predidit)\r\n- 优化 iOS/ macOS 平台性能，现在可以同时使用弹幕和超分辨率 (#1314) (@ErBWs)\r\n- 新增搜索历史功能 (@Predidit)\r\n- UI 调整 (@Predidit)",
-      "changelog": "- 重新设计的 windows 平台视频解析器 (@Predidit)\r\n- 优化 iOS/ macOS 平台性能，现在可以同时使用弹幕和超分辨率 (#1314) (@ErBWs)\r\n- 新增搜索历史功能 (@Predidit)\r\n- UI 调整 (@Predidit)",
+      "version": "1.8.1",
+      "versionDate": "2025-09-19T10:54:35Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.1/Kazumi_ios_1.8.1_no_sign.ipa",
+      "size": 21990221,
+      "versionDescription": "- 修复新版 windows 视频解析器的内存泄漏 (@Predidit)\r\n- 调整历史记录页面样式 (@Predidit)",
+      "changelog": "- 修复新版 windows 视频解析器的内存泄漏 (@Predidit)\r\n- 调整历史记录页面样式 (@Predidit)",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Predidit/Kazumi"
@@ -52,6 +52,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.8.1",
+          "date": "2025-09-19",
+          "localizedDescription": "- 修复新版 windows 视频解析器的内存泄漏 (@Predidit)\r\n- 调整历史记录页面样式 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.1/Kazumi_ios_1.8.1_no_sign.ipa",
+          "size": 21990221,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.8.0",
           "date": "2025-09-18",

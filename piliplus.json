@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.4.4",
-      "versionDate": "2025-09-10T05:24:46Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.4/ios-release-no-sign.ipa",
-      "size": 23265542,
-      "versionDescription": "页面优化\r\n优化 #826\r\n支持显示直播 SuperChat，默认开\r\n优化 AI总结 toast #1197 by @zjns\r\n新增键盘控制播放 #1203 by @zjns\r\n页面优化 #1187 by @My-Responsitories\r\n优化保存 bgm 评论 #1177 #1187 by @My-Responsitories\r\n实现dynaudnorm和webp_anim支持 #1186 by @My-Responsitories\r\n\r\n修复 #1164 #1198\r\n修复 dolby 视频播放 #1202 by @zjns\r\n修复 mac 平台应用名称 #1199 by @zjns\r\n修复bug\r\n\r\n其他",
-      "changelog": "页面优化\r\n优化 #826\r\n支持显示直播 SuperChat，默认开\r\n优化 AI总结 toast #1197 by @zjns\r\n新增键盘控制播放 #1203 by @zjns\r\n页面优化 #1187 by @My-Responsitories\r\n优化保存 bgm 评论 #1177 #1187 by @My-Responsitories\r\n实现dynaudnorm和webp_anim支持 #1186 by @My-Responsitories\r\n\r\n修复 #1164 #1198\r\n修复 dolby 视频播放 #1202 by @zjns\r\n修复 mac 平台应用名称 #1199 by @zjns\r\n修复bug\r\n\r\n其他",
+      "version": "1.1.4.5",
+      "versionDate": "2025-09-25T06:32:11Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.5/ios-release-no-sign.ipa",
+      "size": 24303401,
+      "versionDescription": "适配 Windows\r\n支持开启 `AI 原声翻译` #1285\r\n适配网页端键盘快捷键 #1225\r\n安卓支持搜索音乐 #1270 by @My-Responsitories\r\n`查看对话`支持跳转回复 #1252 by @My-Responsitories\r\n播放信息支持显示硬解信息 #1261 by @My-Responsitories\r\n增加硬解选项，支持多选 #1268 #1269 co-by @My-Responsitories\r\n\r\n页面优化\r\n弹幕优化\r\n优化 #1292\r\nMac 界面优化 #1260 by @zjns\r\n优化 Mac 启动 #1287 by @zjns\r\n账号优化 #1306 by @My-Responsitories\r\n优化硬解模式选择 #1290 by @My-Responsitories\r\n播放页面、二级页面、其他页面调整/优化 #1252 co-by @My-Responsitories\r\n\r\n修复 bug\r\n修复 #1278 #1286 #1300 #1302\r\n修复 Mac 保存图片 #1260 by @zjns\r\n",
+      "changelog": "适配 Windows\r\n支持开启 `AI 原声翻译` #1285\r\n适配网页端键盘快捷键 #1225\r\n安卓支持搜索音乐 #1270 by @My-Responsitories\r\n`查看对话`支持跳转回复 #1252 by @My-Responsitories\r\n播放信息支持显示硬解信息 #1261 by @My-Responsitories\r\n增加硬解选项，支持多选 #1268 #1269 co-by @My-Responsitories\r\n\r\n页面优化\r\n弹幕优化\r\n优化 #1292\r\nMac 界面优化 #1260 by @zjns\r\n优化 Mac 启动 #1287 by @zjns\r\n账号优化 #1306 by @My-Responsitories\r\n优化硬解模式选择 #1290 by @My-Responsitories\r\n播放页面、二级页面、其他页面调整/优化 #1252 co-by @My-Responsitories\r\n\r\n修复 bug\r\n修复 #1278 #1286 #1300 #1302\r\n修复 Mac 保存图片 #1260 by @zjns\r\n",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.4.5",
+          "date": "2025-09-25",
+          "localizedDescription": "适配 Windows\r\n支持开启 `AI 原声翻译` #1285\r\n适配网页端键盘快捷键 #1225\r\n安卓支持搜索音乐 #1270 by @My-Responsitories\r\n`查看对话`支持跳转回复 #1252 by @My-Responsitories\r\n播放信息支持显示硬解信息 #1261 by @My-Responsitories\r\n增加硬解选项，支持多选 #1268 #1269 co-by @My-Responsitories\r\n\r\n页面优化\r\n弹幕优化\r\n优化 #1292\r\nMac 界面优化 #1260 by @zjns\r\n优化 Mac 启动 #1287 by @zjns\r\n账号优化 #1306 by @My-Responsitories\r\n优化硬解模式选择 #1290 by @My-Responsitories\r\n播放页面、二级页面、其他页面调整/优化 #1252 co-by @My-Responsitories\r\n\r\n修复 bug\r\n修复 #1278 #1286 #1300 #1302\r\n修复 Mac 保存图片 #1260 by @zjns\r\n",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.5/ios-release-no-sign.ipa",
+          "size": 24303401,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.4.4",
           "date": "2025-09-10",

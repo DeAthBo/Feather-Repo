@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.4.6",
-      "versionDate": "2025-09-28T10:30:27Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.6/ios-release-no-sign.ipa",
-      "size": 24357714,
-      "versionDescription": "优化 #1328\r\n优化专栏 #1338 #1352\r\n字幕显示 AI 提示 #1357\r\n调整字幕顺序，优先中文\r\n修复 #1326 #1337 #1343\r\n页面优化，其他调整 #1325 by @My-Responsitories\r\n\r\n桌面端：\r\n支持鼠标拖拽刷新\r\n适配鼠标后退键 #1317\r\n支持 Windows WebView\r\nLinux 平台判断 #1331 by @nlsdt\r\n添加 Linux 编译 #1332 by @nlsdt\r\n评论等组件使用鼠标右键弹出菜单\r\n支持最小化暂停/还原时播放，默认关\r\nWin/Mac 支持极验、短信登录 #1342 by @My-Responsitories\r\n`Shift + F` 切换应用内全屏 #1329 #1330 co-by @My-Responsitories",
-      "changelog": "优化 #1328\r\n优化专栏 #1338 #1352\r\n字幕显示 AI 提示 #1357\r\n调整字幕顺序，优先中文\r\n修复 #1326 #1337 #1343\r\n页面优化，其他调整 #1325 by @My-Responsitories\r\n\r\n桌面端：\r\n支持鼠标拖拽刷新\r\n适配鼠标后退键 #1317\r\n支持 Windows WebView\r\nLinux 平台判断 #1331 by @nlsdt\r\n添加 Linux 编译 #1332 by @nlsdt\r\n评论等组件使用鼠标右键弹出菜单\r\n支持最小化暂停/还原时播放，默认关\r\nWin/Mac 支持极验、短信登录 #1342 by @My-Responsitories\r\n`Shift + F` 切换应用内全屏 #1329 #1330 co-by @My-Responsitories",
+      "version": "1.1.4.7",
+      "versionDate": "2025-10-02T06:02:42Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.7/ios-release-no-sign.ipa",
+      "size": 24307461,
+      "versionDescription": "优化鼠标后退键\r\n优化播放全部 #1383\r\n支持鼠标滚轮调节音量\r\n更新 Windows MPV #1341\r\n播放器手势适配桌面端触摸屏 #1374\r\n代码优化 #1381 by @My-Responsitories\r\n支持按 `Enter` 键跳过手动跳过的片段 #1379\r\n避免 Linux 运行多个实例 #1385 by @Integral-Tech\r\n添加 `.fvmrc` 配置 #1413 #1417 by @Integral-Tech\r\n\r\n修复 bug #1384 by @My-Responsitories\r\n修复搜索 #1406 #1412 by @My-Responsitories\r\n修复 #1349，安卓端 `loudnorm` 适配 #1358 by @My-Responsitories",
+      "changelog": "优化鼠标后退键\r\n优化播放全部 #1383\r\n支持鼠标滚轮调节音量\r\n更新 Windows MPV #1341\r\n播放器手势适配桌面端触摸屏 #1374\r\n代码优化 #1381 by @My-Responsitories\r\n支持按 `Enter` 键跳过手动跳过的片段 #1379\r\n避免 Linux 运行多个实例 #1385 by @Integral-Tech\r\n添加 `.fvmrc` 配置 #1413 #1417 by @Integral-Tech\r\n\r\n修复 bug #1384 by @My-Responsitories\r\n修复搜索 #1406 #1412 by @My-Responsitories\r\n修复 #1349，安卓端 `loudnorm` 适配 #1358 by @My-Responsitories",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.4.7",
+          "date": "2025-10-02",
+          "localizedDescription": "优化鼠标后退键\r\n优化播放全部 #1383\r\n支持鼠标滚轮调节音量\r\n更新 Windows MPV #1341\r\n播放器手势适配桌面端触摸屏 #1374\r\n代码优化 #1381 by @My-Responsitories\r\n支持按 `Enter` 键跳过手动跳过的片段 #1379\r\n避免 Linux 运行多个实例 #1385 by @Integral-Tech\r\n添加 `.fvmrc` 配置 #1413 #1417 by @Integral-Tech\r\n\r\n修复 bug #1384 by @My-Responsitories\r\n修复搜索 #1406 #1412 by @My-Responsitories\r\n修复 #1349，安卓端 `loudnorm` 适配 #1358 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.7/ios-release-no-sign.ipa",
+          "size": 24307461,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.4.6",
           "date": "2025-09-28",

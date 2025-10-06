@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.4.7",
-      "versionDate": "2025-10-02T06:02:42Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.7/ios-release-no-sign.ipa",
-      "size": 24307461,
-      "versionDescription": "优化鼠标后退键\r\n优化播放全部 #1383\r\n支持鼠标滚轮调节音量\r\n更新 Windows MPV #1341\r\n播放器手势适配桌面端触摸屏 #1374\r\n代码优化 #1381 by @My-Responsitories\r\n支持按 `Enter` 键跳过手动跳过的片段 #1379\r\n避免 Linux 运行多个实例 #1385 by @Integral-Tech\r\n添加 `.fvmrc` 配置 #1413 #1417 by @Integral-Tech\r\n\r\n修复 bug #1384 by @My-Responsitories\r\n修复搜索 #1406 #1412 by @My-Responsitories\r\n修复 #1349，安卓端 `loudnorm` 适配 #1358 by @My-Responsitories",
-      "changelog": "优化鼠标后退键\r\n优化播放全部 #1383\r\n支持鼠标滚轮调节音量\r\n更新 Windows MPV #1341\r\n播放器手势适配桌面端触摸屏 #1374\r\n代码优化 #1381 by @My-Responsitories\r\n支持按 `Enter` 键跳过手动跳过的片段 #1379\r\n避免 Linux 运行多个实例 #1385 by @Integral-Tech\r\n添加 `.fvmrc` 配置 #1413 #1417 by @Integral-Tech\r\n\r\n修复 bug #1384 by @My-Responsitories\r\n修复搜索 #1406 #1412 by @My-Responsitories\r\n修复 #1349，安卓端 `loudnorm` 适配 #1358 by @My-Responsitories",
+      "version": "1.1.4.8",
+      "versionDate": "2025-10-05T09:49:58Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.8/ios-release-no-sign.ipa",
+      "size": 24298753,
+      "versionDescription": "优化 #1427 #1430\r\n支持鼠标中键切换全屏\r\n支持鼠标右键切换应用内全屏\r\n桌面端全局响应 Esc 键 #1431\r\n支持触控板滑动调节音量、进度\r\n添加 deb 编译 #1422 by @nlsdt\r\n添加 exe 构建 #1454 by @Axiaobo7788\r\n代码优化 #1444 by @My-Responsitories\r\n添加 VSCode 任务流 #1433 by @VillagerTom\r\n\r\n修复 #1418 #1429 #1441 #1442 #1443 #1448 \r\n修复`点赞详情`加载更多 #1435 #1438 by @My-Responsitories",
+      "changelog": "优化 #1427 #1430\r\n支持鼠标中键切换全屏\r\n支持鼠标右键切换应用内全屏\r\n桌面端全局响应 Esc 键 #1431\r\n支持触控板滑动调节音量、进度\r\n添加 deb 编译 #1422 by @nlsdt\r\n添加 exe 构建 #1454 by @Axiaobo7788\r\n代码优化 #1444 by @My-Responsitories\r\n添加 VSCode 任务流 #1433 by @VillagerTom\r\n\r\n修复 #1418 #1429 #1441 #1442 #1443 #1448 \r\n修复`点赞详情`加载更多 #1435 #1438 by @My-Responsitories",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.4.8",
+          "date": "2025-10-05",
+          "localizedDescription": "优化 #1427 #1430\r\n支持鼠标中键切换全屏\r\n支持鼠标右键切换应用内全屏\r\n桌面端全局响应 Esc 键 #1431\r\n支持触控板滑动调节音量、进度\r\n添加 deb 编译 #1422 by @nlsdt\r\n添加 exe 构建 #1454 by @Axiaobo7788\r\n代码优化 #1444 by @My-Responsitories\r\n添加 VSCode 任务流 #1433 by @VillagerTom\r\n\r\n修复 #1418 #1429 #1441 #1442 #1443 #1448 \r\n修复`点赞详情`加载更多 #1435 #1438 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.8/ios-release-no-sign.ipa",
+          "size": 24298753,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.4.7",
           "date": "2025-10-02",

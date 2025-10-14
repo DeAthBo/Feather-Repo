@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.4.8",
-      "versionDate": "2025-10-05T09:49:58Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.8/ios-release-no-sign.ipa",
-      "size": 24298753,
-      "versionDescription": "优化 #1427 #1430\r\n支持鼠标中键切换全屏\r\n支持鼠标右键切换应用内全屏\r\n桌面端全局响应 Esc 键 #1431\r\n支持触控板滑动调节音量、进度\r\n添加 deb 编译 #1422 by @nlsdt\r\n添加 exe 构建 #1454 by @Axiaobo7788\r\n代码优化 #1444 by @My-Responsitories\r\n添加 VSCode 任务流 #1433 by @VillagerTom\r\n\r\n修复 #1418 #1429 #1441 #1442 #1443 #1448 \r\n修复`点赞详情`加载更多 #1435 #1438 by @My-Responsitories",
-      "changelog": "优化 #1427 #1430\r\n支持鼠标中键切换全屏\r\n支持鼠标右键切换应用内全屏\r\n桌面端全局响应 Esc 键 #1431\r\n支持触控板滑动调节音量、进度\r\n添加 deb 编译 #1422 by @nlsdt\r\n添加 exe 构建 #1454 by @Axiaobo7788\r\n代码优化 #1444 by @My-Responsitories\r\n添加 VSCode 任务流 #1433 by @VillagerTom\r\n\r\n修复 #1418 #1429 #1441 #1442 #1443 #1448 \r\n修复`点赞详情`加载更多 #1435 #1438 by @My-Responsitories",
+      "version": "1.1.4.10",
+      "versionDate": "2025-10-13T13:00:29Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.10/ios-release-no-sign.ipa",
+      "size": 24377145,
+      "versionDescription": "支持播放音频 #1336\r\n历史记录显示`已收藏`标识 #1515\r\n支持跳过番剧片头/片尾，默认跳过一次 #1461\r\n支持查看`当前弹幕列表` by @My-Responsitories\r\n\r\n页面优化\r\n弹幕优化 by @My-Responsitories\r\n优化构建 #1510 by @My-Responsitories\r\n\r\n修复bug",
+      "changelog": "支持播放音频 #1336\r\n历史记录显示`已收藏`标识 #1515\r\n支持跳过番剧片头/片尾，默认跳过一次 #1461\r\n支持查看`当前弹幕列表` by @My-Responsitories\r\n\r\n页面优化\r\n弹幕优化 by @My-Responsitories\r\n优化构建 #1510 by @My-Responsitories\r\n\r\n修复bug",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.4.10",
+          "date": "2025-10-13",
+          "localizedDescription": "支持播放音频 #1336\r\n历史记录显示`已收藏`标识 #1515\r\n支持跳过番剧片头/片尾，默认跳过一次 #1461\r\n支持查看`当前弹幕列表` by @My-Responsitories\r\n\r\n页面优化\r\n弹幕优化 by @My-Responsitories\r\n优化构建 #1510 by @My-Responsitories\r\n\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.10/ios-release-no-sign.ipa",
+          "size": 24377145,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.4.8",
           "date": "2025-10-05",

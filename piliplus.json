@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.4.12",
-      "versionDate": "2025-10-17T05:44:13Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.12/ios-release-no-sign.ipa",
-      "size": 24408250,
-      "versionDescription": "修复bug\r\n\r\n弹幕优化 by @My-Responsitories\r\n\r\n## 1.1.4.11\r\n支持关闭显示托盘图标\r\n支持查看用户共同关注\r\n支持解析关注页 scheme #1566\r\n避免 Windows 运行多个实例 #1574\r\n打包 Linux rpm #1575 by @Axiaobo7788\r\n音频播放页支持获取当前视频播放列表 #1547\r\n全屏按钮右键触发应用内全屏 #1553 #1561 by @My-Responsitories\r\n支持 ctrl、shift、alt + 鼠标滚轮 缩放与平移 #1555 by @My-Responsitories\r\n**移动端**支持点击弹幕悬停，点赞、复制、举报，默认开启 by @My-Responsitories\r\n\r\n弹幕优化 by @My-Responsitories\r\n播放器优化 #1555 by @My-Responsitories\r\n优化保存图片，其他调整 #1562 by @My-Responsitories\r\n\r\n修复bug",
-      "changelog": "修复bug\r\n\r\n弹幕优化 by @My-Responsitories\r\n\r\n## 1.1.4.11\r\n支持关闭显示托盘图标\r\n支持查看用户共同关注\r\n支持解析关注页 scheme #1566\r\n避免 Windows 运行多个实例 #1574\r\n打包 Linux rpm #1575 by @Axiaobo7788\r\n音频播放页支持获取当前视频播放列表 #1547\r\n全屏按钮右键触发应用内全屏 #1553 #1561 by @My-Responsitories\r\n支持 ctrl、shift、alt + 鼠标滚轮 缩放与平移 #1555 by @My-Responsitories\r\n**移动端**支持点击弹幕悬停，点赞、复制、举报，默认开启 by @My-Responsitories\r\n\r\n弹幕优化 by @My-Responsitories\r\n播放器优化 #1555 by @My-Responsitories\r\n优化保存图片，其他调整 #1562 by @My-Responsitories\r\n\r\n修复bug",
+      "version": "1.1.4.13",
+      "versionDate": "2025-10-19T06:50:33Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.13/PiliPlus_ios_1.1.4%2B4266.ipa",
+      "size": 24398659,
+      "versionDescription": "优化 #1630\r\n听音频支持媒体通知控制 #1635\r\n显示弹幕点赞数 #1640 by @My-Responsitories\r\n支持弹幕空降功能 #1603 by @My-Responsitories\r\n添加 Linux Arm64 构建测试 #1610 by @Axiaobo7788\r\n\r\n修复 #1613 #1615\r\n修复高级弹幕 #1619 by @My-Responsitories",
+      "changelog": "优化 #1630\r\n听音频支持媒体通知控制 #1635\r\n显示弹幕点赞数 #1640 by @My-Responsitories\r\n支持弹幕空降功能 #1603 by @My-Responsitories\r\n添加 Linux Arm64 构建测试 #1610 by @Axiaobo7788\r\n\r\n修复 #1613 #1615\r\n修复高级弹幕 #1619 by @My-Responsitories",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.4.13",
+          "date": "2025-10-19",
+          "localizedDescription": "优化 #1630\r\n听音频支持媒体通知控制 #1635\r\n显示弹幕点赞数 #1640 by @My-Responsitories\r\n支持弹幕空降功能 #1603 by @My-Responsitories\r\n添加 Linux Arm64 构建测试 #1610 by @Axiaobo7788\r\n\r\n修复 #1613 #1615\r\n修复高级弹幕 #1619 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.13/PiliPlus_ios_1.1.4%2B4266.ipa",
+          "size": 24398659,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.4.12",
           "date": "2025-10-17",

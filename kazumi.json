@@ -19,12 +19,12 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "version": "1.8.4",
-      "versionDate": "2025-10-14T21:47:26Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.4/Kazumi_ios_1.8.4_no_sign.ipa",
-      "size": 21993484,
-      "versionDescription": "- 修复 windows 平台硬件解码可能发生闪烁的问题 (#1390) (@Predidit)\r\n- 修复 android 平台自动更新可能导致应用安装器意外退出的问题 (#1382) (@Predidit)\r\n- 更新 UA 列表 (@Predidit)\r\n> [!NOTE]\r\n> 这是 1.8.3 的热修复版本，更多更新日志参考 1.8.3",
-      "changelog": "- 修复 windows 平台硬件解码可能发生闪烁的问题 (#1390) (@Predidit)\r\n- 修复 android 平台自动更新可能导致应用安装器意外退出的问题 (#1382) (@Predidit)\r\n- 更新 UA 列表 (@Predidit)\r\n> [!NOTE]\r\n> 这是 1.8.3 的热修复版本，更多更新日志参考 1.8.3",
+      "version": "1.8.5",
+      "versionDate": "2025-10-21T11:01:35Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.5/Kazumi_ios_1.8.5_no_sign.ipa",
+      "size": 21995635,
+      "versionDescription": "- 实现 linux 平台零拷贝视频解码 (@Predidit)\r\n- 新增快捷键快进步长自定义功能 (#1373) (#1418) (@aliferne)\r\n- 现在记忆跳过片头按钮的快进步长 (@aliferne)\r\n- 修复部分评论内容空白的问题 (@aliferne)\r\n- 优化自动更新逻辑 (@ErBWs)",
+      "changelog": "- 实现 linux 平台零拷贝视频解码 (@Predidit)\r\n- 新增快捷键快进步长自定义功能 (#1373) (#1418) (@aliferne)\r\n- 现在记忆跳过片头按钮的快进步长 (@aliferne)\r\n- 修复部分评论内容空白的问题 (@aliferne)\r\n- 优化自动更新逻辑 (@ErBWs)",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Predidit/Kazumi"
@@ -52,6 +52,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.8.5",
+          "date": "2025-10-21",
+          "localizedDescription": "- 实现 linux 平台零拷贝视频解码 (@Predidit)\r\n- 新增快捷键快进步长自定义功能 (#1373) (#1418) (@aliferne)\r\n- 现在记忆跳过片头按钮的快进步长 (@aliferne)\r\n- 修复部分评论内容空白的问题 (@aliferne)\r\n- 优化自动更新逻辑 (@ErBWs)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.5/Kazumi_ios_1.8.5_no_sign.ipa",
+          "size": 21995635,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.8.4",
           "date": "2025-10-14",

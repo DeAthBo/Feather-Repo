@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.4.14",
-      "versionDate": "2025-10-21T10:13:54Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.14/PiliPlus_ios_1.1.4%2B4282.ipa",
-      "size": 24416038,
-      "versionDescription": "动态支持`查看更多` #1629\r\n首页直播添加赛事入口 #1628\r\n音频播放支持切换排序方式 #1636\r\n音频播放支持获取合集列表、切换分P\r\n\r\n修复 #1616\r\n修复 #1648 co-by @My-Responsitories",
-      "changelog": "动态支持`查看更多` #1629\r\n首页直播添加赛事入口 #1628\r\n音频播放支持切换排序方式 #1636\r\n音频播放支持获取合集列表、切换分P\r\n\r\n修复 #1616\r\n修复 #1648 co-by @My-Responsitories",
+      "version": "1.1.4.15",
+      "versionDate": "2025-10-24T06:44:53Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.15/PiliPlus_ios_1.1.4%2B4285.ipa",
+      "size": 24413811,
+      "versionDescription": "页面优化\r\n修复 #1680 #1684",
+      "changelog": "页面优化\r\n修复 #1680 #1684",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.4.15",
+          "date": "2025-10-24",
+          "localizedDescription": "页面优化\r\n修复 #1680 #1684",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.15/PiliPlus_ios_1.1.4%2B4285.ipa",
+          "size": 24413811,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.4.14",
           "date": "2025-10-21",

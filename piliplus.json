@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.4.17",
-      "versionDate": "2025-10-28T15:22:46Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.17/PiliPlus_ios_1.1.4%2B4306.ipa",
-      "size": 24409235,
-      "versionDescription": "bug fixes",
-      "changelog": "bug fixes",
+      "version": "1.1.5-pre",
+      "versionDate": "2025-11-10T04:23:41Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre/PiliPlus_ios_1.1.5%2B4328.ipa",
+      "size": 24498433,
+      "versionDescription": "支持显示投票图片\r\n支持离线缓存/播放\r\n支持加载本地字幕文件\r\n亮度调节支持调节系统亮度\r\n\r\n优化投票选项\r\n优化 Windows Alt 键平移视频画面\r\n\r\n修复动态解析\r\n修复 bug\r\n\r\n其他",
+      "changelog": "支持显示投票图片\r\n支持离线缓存/播放\r\n支持加载本地字幕文件\r\n亮度调节支持调节系统亮度\r\n\r\n优化投票选项\r\n优化 Windows Alt 键平移视频画面\r\n\r\n修复动态解析\r\n修复 bug\r\n\r\n其他",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.5-pre",
+          "date": "2025-11-10",
+          "localizedDescription": "支持显示投票图片\r\n支持离线缓存/播放\r\n支持加载本地字幕文件\r\n亮度调节支持调节系统亮度\r\n\r\n优化投票选项\r\n优化 Windows Alt 键平移视频画面\r\n\r\n修复动态解析\r\n修复 bug\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre/PiliPlus_ios_1.1.5%2B4328.ipa",
+          "size": 24498433,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.4.17",
           "date": "2025-10-28",

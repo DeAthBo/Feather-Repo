@@ -19,12 +19,12 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "version": "1.8.7",
-      "versionDate": "2025-10-29T07:55:38Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.7/Kazumi_ios_1.8.7_no_sign.ipa",
-      "size": 22020941,
-      "versionDescription": "- 新增规则测试功能 (#1438) (@1312853182)\r\n- 新增弹幕调速功能 (#1331) (@Predidit)\r\n- 新增检索结果过滤功能 (@aliferne)\r\n- 优化资源检索逻辑 (@Predidit)\r\n- 更多的弹幕区域选项 (#1335) (@aliferne)\r\n- 修复 windows 平台启动时的闪烁问题 (@Predidit)\r\n- 轮换示例规则 (@Predidit)",
-      "changelog": "- 新增规则测试功能 (#1438) (@1312853182)\r\n- 新增弹幕调速功能 (#1331) (@Predidit)\r\n- 新增检索结果过滤功能 (@aliferne)\r\n- 优化资源检索逻辑 (@Predidit)\r\n- 更多的弹幕区域选项 (#1335) (@aliferne)\r\n- 修复 windows 平台启动时的闪烁问题 (@Predidit)\r\n- 轮换示例规则 (@Predidit)",
+      "version": "1.8.8",
+      "versionDate": "2025-11-15T07:26:05Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.8/Kazumi_ios_1.8.8_no_sign.ipa",
+      "size": 22127910,
+      "versionDescription": "- 适配 flutter 3.38 (@Predidit)\r\n- 新增新番时间表过滤功能 (#1142) (@0Chencc)\r\n- 新增弹幕速度是否跟随视频倍速的开关 (#1233) (@0Chencc)\r\n- 重构历史记录代码逻辑 (@0Chencc)\r\n- 现在 windows 平台重复启动 kazumi 将自动拉起已存在窗体 (@0Chencc)\r\n- 现在 Linux 平台使用DE原生标题栏而非GTK标题栏 (@yaoyaozijing)\r\n- 修复 Linux 平台视频帧率在特定情况下被锁定为15帧的问题 (@Predidit)\r\n- 修复 winodws 平台发生本地储存错误时静默失败的问题 (@Predidit)",
+      "changelog": "- 适配 flutter 3.38 (@Predidit)\r\n- 新增新番时间表过滤功能 (#1142) (@0Chencc)\r\n- 新增弹幕速度是否跟随视频倍速的开关 (#1233) (@0Chencc)\r\n- 重构历史记录代码逻辑 (@0Chencc)\r\n- 现在 windows 平台重复启动 kazumi 将自动拉起已存在窗体 (@0Chencc)\r\n- 现在 Linux 平台使用DE原生标题栏而非GTK标题栏 (@yaoyaozijing)\r\n- 修复 Linux 平台视频帧率在特定情况下被锁定为15帧的问题 (@Predidit)\r\n- 修复 winodws 平台发生本地储存错误时静默失败的问题 (@Predidit)",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Predidit/Kazumi"
@@ -52,6 +52,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.8.8",
+          "date": "2025-11-15",
+          "localizedDescription": "- 适配 flutter 3.38 (@Predidit)\r\n- 新增新番时间表过滤功能 (#1142) (@0Chencc)\r\n- 新增弹幕速度是否跟随视频倍速的开关 (#1233) (@0Chencc)\r\n- 重构历史记录代码逻辑 (@0Chencc)\r\n- 现在 windows 平台重复启动 kazumi 将自动拉起已存在窗体 (@0Chencc)\r\n- 现在 Linux 平台使用DE原生标题栏而非GTK标题栏 (@yaoyaozijing)\r\n- 修复 Linux 平台视频帧率在特定情况下被锁定为15帧的问题 (@Predidit)\r\n- 修复 winodws 平台发生本地储存错误时静默失败的问题 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.8/Kazumi_ios_1.8.8_no_sign.ipa",
+          "size": 22127910,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.8.7",
           "date": "2025-10-29",

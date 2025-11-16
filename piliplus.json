@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.5-pre4",
-      "versionDate": "2025-11-14T04:32:40Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre4/PiliPlus_ios_1.1.5%2B4347.ipa",
-      "size": 24558900,
-      "versionDescription": "flutter 3.38\r\n修复 CDN 相关 #1739 by @iKirby\r\n支持编辑弹幕屏蔽规则，显示空降助手用户信息 #1738 by @My-Responsitories\r\n其他",
-      "changelog": "flutter 3.38\r\n修复 CDN 相关 #1739 by @iKirby\r\n支持编辑弹幕屏蔽规则，显示空降助手用户信息 #1738 by @My-Responsitories\r\n其他",
+      "version": "1.1.5-pre5",
+      "versionDate": "2025-11-15T04:21:51Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre5/PiliPlus_ios_1.1.5%2B4348.ipa",
+      "size": 24557486,
+      "versionDescription": "fix wakelock",
+      "changelog": "fix wakelock",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.5-pre5",
+          "date": "2025-11-15",
+          "localizedDescription": "fix wakelock",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre5/PiliPlus_ios_1.1.5%2B4348.ipa",
+          "size": 24557486,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.5-pre4",
           "date": "2025-11-14",

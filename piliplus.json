@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.5-pre5",
-      "versionDate": "2025-11-15T04:21:51Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre5/PiliPlus_ios_1.1.5%2B4348.ipa",
-      "size": 24557486,
-      "versionDescription": "fix wakelock",
-      "changelog": "fix wakelock",
+      "version": "1.1.5-pre6",
+      "versionDate": "2025-11-17T10:49:44Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre6/PiliPlus_ios_1.1.5%2B4357.ipa",
+      "size": 24567627,
+      "versionDescription": "重构 CDN 功能 #1743 by @My-Responsitories\r\n离线播放支持媒体通知控制 #1748 co-by @staoran\r\n其他调整 #1742 #1745 #1746 #1747 by @My-Responsitories",
+      "changelog": "重构 CDN 功能 #1743 by @My-Responsitories\r\n离线播放支持媒体通知控制 #1748 co-by @staoran\r\n其他调整 #1742 #1745 #1746 #1747 by @My-Responsitories",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.5-pre6",
+          "date": "2025-11-17",
+          "localizedDescription": "重构 CDN 功能 #1743 by @My-Responsitories\r\n离线播放支持媒体通知控制 #1748 co-by @staoran\r\n其他调整 #1742 #1745 #1746 #1747 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre6/PiliPlus_ios_1.1.5%2B4357.ipa",
+          "size": 24567627,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.5-pre5",
           "date": "2025-11-15",

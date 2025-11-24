@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.5-pre7",
-      "versionDate": "2025-11-22T02:14:58Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre7/PiliPlus_ios_1.1.5%2B4384.ipa",
-      "size": 24622129,
-      "versionDescription": "页面优化\r\n支持显示电量\r\n直播支持调整弹幕，查看播放信息\r\n代码优化 #1750 by @My-Responsitories\r\n空降助手优化/支持绑定 YTB 视频 #1751 by @My-Responsitories\r\n修复 bug\r\n其他",
-      "changelog": "页面优化\r\n支持显示电量\r\n直播支持调整弹幕，查看播放信息\r\n代码优化 #1750 by @My-Responsitories\r\n空降助手优化/支持绑定 YTB 视频 #1751 by @My-Responsitories\r\n修复 bug\r\n其他",
+      "version": "1.1.5-pre8",
+      "versionDate": "2025-11-23T04:51:37Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre8/PiliPlus_ios_1.1.5%2B4389.ipa",
+      "size": 24624365,
+      "versionDescription": "bug fixes",
+      "changelog": "bug fixes",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.5-pre8",
+          "date": "2025-11-23",
+          "localizedDescription": "bug fixes",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre8/PiliPlus_ios_1.1.5%2B4389.ipa",
+          "size": 24624365,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.5-pre7",
           "date": "2025-11-22",

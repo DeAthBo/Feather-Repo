@@ -19,12 +19,12 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "version": "1.9.1",
-      "versionDate": "2025-11-27T10:50:30Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.1/Kazumi_ios_1.9.1_no_sign.ipa",
-      "size": 27607497,
-      "versionDescription": "- 新增弹幕加载状态指示器 (@0Chencc)\r\n- 新增桌面平台自定义快捷键功能 (@yaoyaozijing)\r\n- 修复弹幕无法使用系统字体的问题 (#1526) (@Predidit)\r\n- 改进的日志记录模块 (@Predidit)\r\n- 修复 Linux 平台内存泄漏问题 (@Predidit)\r\n- 修复 Linux 平台非 Gnome 环境无法隐藏标题栏的问题 (@Predidit)\r\n- 修复 Linux 平台 Wayland 图标为默认值的问题 (@yaoyaozijing)\r\n- 优化 Linux 平台播放器性能 (@Predidit)",
-      "changelog": "- 新增弹幕加载状态指示器 (@0Chencc)\r\n- 新增桌面平台自定义快捷键功能 (@yaoyaozijing)\r\n- 修复弹幕无法使用系统字体的问题 (#1526) (@Predidit)\r\n- 改进的日志记录模块 (@Predidit)\r\n- 修复 Linux 平台内存泄漏问题 (@Predidit)\r\n- 修复 Linux 平台非 Gnome 环境无法隐藏标题栏的问题 (@Predidit)\r\n- 修复 Linux 平台 Wayland 图标为默认值的问题 (@yaoyaozijing)\r\n- 优化 Linux 平台播放器性能 (@Predidit)",
+      "version": "1.9.2",
+      "versionDate": "2025-12-05T06:45:55Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.2/Kazumi_ios_1.9.2_no_sign.ipa",
+      "size": 27608465,
+      "versionDescription": "- 新增 macOS 快捷操作支持 (@yaoyaozijing)\r\n- 修复桌面平台长按快进不生效的问题 (#1536) (@yaoyaozijing)\r\n- 修复 Linux 平台超分辨率可能导致视频闪烁的问题 (@Predidit)\r\n- 修复 Linux 平台偶发的渲染错误 (@Predidit)\r\n- 更好的 windows 平台错误处理 (#1520) (#1538) (@Predidit)",
+      "changelog": "- 新增 macOS 快捷操作支持 (@yaoyaozijing)\r\n- 修复桌面平台长按快进不生效的问题 (#1536) (@yaoyaozijing)\r\n- 修复 Linux 平台超分辨率可能导致视频闪烁的问题 (@Predidit)\r\n- 修复 Linux 平台偶发的渲染错误 (@Predidit)\r\n- 更好的 windows 平台错误处理 (#1520) (#1538) (@Predidit)",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Predidit/Kazumi"
@@ -52,6 +52,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.9.2",
+          "date": "2025-12-05",
+          "localizedDescription": "- 新增 macOS 快捷操作支持 (@yaoyaozijing)\r\n- 修复桌面平台长按快进不生效的问题 (#1536) (@yaoyaozijing)\r\n- 修复 Linux 平台超分辨率可能导致视频闪烁的问题 (@Predidit)\r\n- 修复 Linux 平台偶发的渲染错误 (@Predidit)\r\n- 更好的 windows 平台错误处理 (#1520) (#1538) (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.2/Kazumi_ios_1.9.2_no_sign.ipa",
+          "size": 27608465,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.9.1",
           "date": "2025-11-27",

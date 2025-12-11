@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.5",
-      "versionDate": "2025-11-30T03:49:58Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5/PiliPlus_ios_1.1.5%2B4403.ipa",
-      "size": 24632441,
-      "versionDescription": "支持显示电量\r\n支持 DLNA 投屏\r\n支持显示投票图片\r\n支持加载本地字幕文件\r\n亮度调节支持调节系统亮度\r\n直播支持调整弹幕，查看播放信息\r\n重构 CDN 功能 #1743 by @My-Responsitories\r\n离线播放支持媒体通知控制 #1748 co-by @staoran\r\n支持离线缓存/播放 by @bggRGjQaUbCoE @My-Responsitories\r\n空降助手优化/支持绑定 YTB 视频 #1751 by @My-Responsitories\r\n弹幕优化，高级弹幕屏蔽移至弹幕设置 #1756 by @My-Responsitories\r\n支持编辑弹幕屏蔽规则，显示空降助手用户信息 #1738 by @My-Responsitories\r\n\r\n页面优化\r\n优化投票选项\r\n优化 Windows Alt 键平移视频画面\r\n\r\n修复 CDN 相关 #1739 by @iKirby\r\n修复动态解析\r\n修复 bug\r\n\r\n其他\r\n其他调整 #1742 #1745 #1746 #1747 #1750 #1753 by @My-Responsitories",
-      "changelog": "支持显示电量\r\n支持 DLNA 投屏\r\n支持显示投票图片\r\n支持加载本地字幕文件\r\n亮度调节支持调节系统亮度\r\n直播支持调整弹幕，查看播放信息\r\n重构 CDN 功能 #1743 by @My-Responsitories\r\n离线播放支持媒体通知控制 #1748 co-by @staoran\r\n支持离线缓存/播放 by @bggRGjQaUbCoE @My-Responsitories\r\n空降助手优化/支持绑定 YTB 视频 #1751 by @My-Responsitories\r\n弹幕优化，高级弹幕屏蔽移至弹幕设置 #1756 by @My-Responsitories\r\n支持编辑弹幕屏蔽规则，显示空降助手用户信息 #1738 by @My-Responsitories\r\n\r\n页面优化\r\n优化投票选项\r\n优化 Windows Alt 键平移视频画面\r\n\r\n修复 CDN 相关 #1739 by @iKirby\r\n修复动态解析\r\n修复 bug\r\n\r\n其他\r\n其他调整 #1742 #1745 #1746 #1747 #1750 #1753 by @My-Responsitories",
+      "version": "1.1.5.1",
+      "versionDate": "2025-12-10T10:07:35Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.1/PiliPlus_ios_1.1.5%2B4442.ipa",
+      "size": 24632567,
+      "versionDescription": "页面优化\r\n优化下载\r\n重构 Log #1764 by @My-Responsitories\r\n推荐页单独卡片宽度 #1771 by @LiPolymer\r\n调整 #1762 #1765 #1773 by @My-Responsitories\r\n导入设置/登录信息支持输入 #1772 by @My-Responsitories\r\n修复 bug",
+      "changelog": "页面优化\r\n优化下载\r\n重构 Log #1764 by @My-Responsitories\r\n推荐页单独卡片宽度 #1771 by @LiPolymer\r\n调整 #1762 #1765 #1773 by @My-Responsitories\r\n导入设置/登录信息支持输入 #1772 by @My-Responsitories\r\n修复 bug",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.5.1",
+          "date": "2025-12-10",
+          "localizedDescription": "页面优化\r\n优化下载\r\n重构 Log #1764 by @My-Responsitories\r\n推荐页单独卡片宽度 #1771 by @LiPolymer\r\n调整 #1762 #1765 #1773 by @My-Responsitories\r\n导入设置/登录信息支持输入 #1772 by @My-Responsitories\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.1/PiliPlus_ios_1.1.5%2B4442.ipa",
+          "size": 24632567,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.5",
           "date": "2025-11-30",
@@ -198,14 +206,6 @@
           "localizedDescription": "优化 #1328\r\n优化专栏 #1338 #1352\r\n字幕显示 AI 提示 #1357\r\n调整字幕顺序，优先中文\r\n修复 #1326 #1337 #1343\r\n页面优化，其他调整 #1325 by @My-Responsitories\r\n\r\n桌面端：\r\n支持鼠标拖拽刷新\r\n适配鼠标后退键 #1317\r\n支持 Windows WebView\r\nLinux 平台判断 #1331 by @nlsdt\r\n添加 Linux 编译 #1332 by @nlsdt\r\n评论等组件使用鼠标右键弹出菜单\r\n支持最小化暂停/还原时播放，默认关\r\nWin/Mac 支持极验、短信登录 #1342 by @My-Responsitories\r\n`Shift + F` 切换应用内全屏 #1329 #1330 co-by @My-Responsitories",
           "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.6/ios-release-no-sign.ipa",
           "size": 24357714,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.1.4.5",
-          "date": "2025-09-25",
-          "localizedDescription": "适配 Windows\r\n支持开启 `AI 原声翻译` #1285\r\n适配网页端键盘快捷键 #1225\r\n安卓支持搜索音乐 #1270 by @My-Responsitories\r\n`查看对话`支持跳转回复 #1252 by @My-Responsitories\r\n播放信息支持显示硬解信息 #1261 by @My-Responsitories\r\n增加硬解选项，支持多选 #1268 #1269 co-by @My-Responsitories\r\n\r\n页面优化\r\n弹幕优化\r\n优化 #1292\r\nMac 界面优化 #1260 by @zjns\r\n优化 Mac 启动 #1287 by @zjns\r\n账号优化 #1306 by @My-Responsitories\r\n优化硬解模式选择 #1290 by @My-Responsitories\r\n播放页面、二级页面、其他页面调整/优化 #1252 co-by @My-Responsitories\r\n\r\n修复 bug\r\n修复 #1278 #1286 #1300 #1302\r\n修复 Mac 保存图片 #1260 by @zjns\r\n",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.5/ios-release-no-sign.ipa",
-          "size": 24303401,
           "minOSVersion": "13.0"
         }
       ],

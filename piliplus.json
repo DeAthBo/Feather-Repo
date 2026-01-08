@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.5.2",
-      "versionDate": "2026-01-03T06:51:30Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.2/PiliPlus_ios_1.1.5%2B4519.ipa",
-      "size": 24619651,
-      "versionDescription": "增加桌面端音量上限\r\n支持显示动态互动内容\r\nSuperChat 支持常驻显示\r\n投票面板支持查看关注的人的投票\r\n直播弹幕列表支持`@`、`举报`等操作\r\n新增视频画质ID #1794 by @Vixb1122\r\n私信分享支持多选 #1779 co-by @leset0ng\r\n缓存面板显示网络类型 #1781 by @My-Responsitories\r\n同步 [BilibiliSponsorBlock](https://github.com/hanydd/BilibiliSponsorBlock) 片段类型 #1777 co-by @Vixb1122\r\n弹幕支持`固定转滚动`、`滚动弹幕固定速度` #1791 by @My-Responsitories\r\n\r\n页面优化\r\n优化专栏字体颜色\r\n优化 #1776 #1780 #1782 #1785 #1787 #1788 by @My-Responsitories\r\n\r\n修复 #1790 by @My-Responsitories\r\n修复 bug\r\n其他",
-      "changelog": "增加桌面端音量上限\r\n支持显示动态互动内容\r\nSuperChat 支持常驻显示\r\n投票面板支持查看关注的人的投票\r\n直播弹幕列表支持`@`、`举报`等操作\r\n新增视频画质ID #1794 by @Vixb1122\r\n私信分享支持多选 #1779 co-by @leset0ng\r\n缓存面板显示网络类型 #1781 by @My-Responsitories\r\n同步 [BilibiliSponsorBlock](https://github.com/hanydd/BilibiliSponsorBlock) 片段类型 #1777 co-by @Vixb1122\r\n弹幕支持`固定转滚动`、`滚动弹幕固定速度` #1791 by @My-Responsitories\r\n\r\n页面优化\r\n优化专栏字体颜色\r\n优化 #1776 #1780 #1782 #1785 #1787 #1788 by @My-Responsitories\r\n\r\n修复 #1790 by @My-Responsitories\r\n修复 bug\r\n其他",
+      "version": "1.1.5.3",
+      "versionDate": "2026-01-07T05:09:09Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.3/PiliPlus_ios_1.1.5%2B4526.ipa",
+      "size": 24632843,
+      "versionDescription": "修复 #1795 by @sghhhh\r\n修复 bug",
+      "changelog": "修复 #1795 by @sghhhh\r\n修复 bug",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.5.3",
+          "date": "2026-01-07",
+          "localizedDescription": "修复 #1795 by @sghhhh\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.3/PiliPlus_ios_1.1.5%2B4526.ipa",
+          "size": 24632843,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.5.2",
           "date": "2026-01-03",
@@ -198,14 +206,6 @@
           "localizedDescription": "优化 #1427 #1430\r\n支持鼠标中键切换全屏\r\n支持鼠标右键切换应用内全屏\r\n桌面端全局响应 Esc 键 #1431\r\n支持触控板滑动调节音量、进度\r\n添加 deb 编译 #1422 by @nlsdt\r\n添加 exe 构建 #1454 by @Axiaobo7788\r\n代码优化 #1444 by @My-Responsitories\r\n添加 VSCode 任务流 #1433 by @VillagerTom\r\n\r\n修复 #1418 #1429 #1441 #1442 #1443 #1448 \r\n修复`点赞详情`加载更多 #1435 #1438 by @My-Responsitories",
           "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.8/ios-release-no-sign.ipa",
           "size": 24298753,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.1.4.7",
-          "date": "2025-10-02",
-          "localizedDescription": "优化鼠标后退键\r\n优化播放全部 #1383\r\n支持鼠标滚轮调节音量\r\n更新 Windows MPV #1341\r\n播放器手势适配桌面端触摸屏 #1374\r\n代码优化 #1381 by @My-Responsitories\r\n支持按 `Enter` 键跳过手动跳过的片段 #1379\r\n避免 Linux 运行多个实例 #1385 by @Integral-Tech\r\n添加 `.fvmrc` 配置 #1413 #1417 by @Integral-Tech\r\n\r\n修复 bug #1384 by @My-Responsitories\r\n修复搜索 #1406 #1412 by @My-Responsitories\r\n修复 #1349，安卓端 `loudnorm` 适配 #1358 by @My-Responsitories",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.7/ios-release-no-sign.ipa",
-          "size": 24307461,
           "minOSVersion": "13.0"
         }
       ],

@@ -19,12 +19,12 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "version": "1.9.3",
-      "versionDate": "2025-12-11T08:52:35Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.3/Kazumi_ios_1.9.3_no_sign.ipa",
-      "size": 27422458,
-      "versionDescription": "- 新增实验性HLS广告过滤功能 (@0Chencc)\r\n- 现在可以禁用自动连播 (#1544) (@Predidit)\r\n- 其他UI修复 (@Predidit)\r\n> [!IMPORTANT]\r\n> 规则API级别从4升级到5以支持广告过滤，向前兼容",
-      "changelog": "- 新增实验性HLS广告过滤功能 (@0Chencc)\r\n- 现在可以禁用自动连播 (#1544) (@Predidit)\r\n- 其他UI修复 (@Predidit)\r\n> [!IMPORTANT]\r\n> 规则API级别从4升级到5以支持广告过滤，向前兼容",
+      "version": "1.9.4",
+      "versionDate": "2026-01-09T08:41:54Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.4/Kazumi_ios_1.9.4_no_sign.ipa",
+      "size": 27452591,
+      "versionDescription": "- 新增自定义HTTP代理支持 (#1205 #1221) (@0Chencc)\r\n- 修复日志页面日志过多可能导致应用冻结的问题 (#1607) (@Predidit)\r\n- 修复windows平台无法在包含非ASCII路径下运行的问题 (@Predidit)\r\n- 修复linux平台视频解析器偶发的崩溃问题 (@Predidit)\r\n- 其他UI调整 (@0Chencc)",
+      "changelog": "- 新增自定义HTTP代理支持 (#1205 #1221) (@0Chencc)\r\n- 修复日志页面日志过多可能导致应用冻结的问题 (#1607) (@Predidit)\r\n- 修复windows平台无法在包含非ASCII路径下运行的问题 (@Predidit)\r\n- 修复linux平台视频解析器偶发的崩溃问题 (@Predidit)\r\n- 其他UI调整 (@0Chencc)",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Predidit/Kazumi"
@@ -52,6 +52,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.9.4",
+          "date": "2026-01-09",
+          "localizedDescription": "- 新增自定义HTTP代理支持 (#1205 #1221) (@0Chencc)\r\n- 修复日志页面日志过多可能导致应用冻结的问题 (#1607) (@Predidit)\r\n- 修复windows平台无法在包含非ASCII路径下运行的问题 (@Predidit)\r\n- 修复linux平台视频解析器偶发的崩溃问题 (@Predidit)\r\n- 其他UI调整 (@0Chencc)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.4/Kazumi_ios_1.9.4_no_sign.ipa",
+          "size": 27452591,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.9.3",
           "date": "2025-12-11",

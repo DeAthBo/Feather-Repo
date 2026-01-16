@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.5.3",
-      "versionDate": "2026-01-07T05:09:09Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.3/PiliPlus_ios_1.1.5%2B4526.ipa",
-      "size": 24632843,
-      "versionDescription": "修复 #1795 by @sghhhh\r\n修复 bug",
-      "changelog": "修复 #1795 by @sghhhh\r\n修复 bug",
+      "version": "1.1.5.4",
+      "versionDate": "2026-01-15T10:05:41Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.4/PiliPlus_ios_1.1.5%2B4543.ipa",
+      "size": 25103780,
+      "versionDescription": "支持长按/右键图片显示菜单，默认关\r\n调整 #1802 by @My-Responsitories\r\n支持界面缩放 #1800 co-by @sghhhh\r\nSponsorBlock Api 调整 #1797 by @zjns\r\n添加显示动态互动信息开关 #1798 co-by @sghhhh\r\n\r\n修复 #1799 co-by @KoishiMoe\r\n修复 Linux Task Icon #1800 by @sghhhh\r\n修复无法通过 AltStore/SideStore 安装 IPA #1803 by @KoishiMoe\r\n修复 bug",
+      "changelog": "支持长按/右键图片显示菜单，默认关\r\n调整 #1802 by @My-Responsitories\r\n支持界面缩放 #1800 co-by @sghhhh\r\nSponsorBlock Api 调整 #1797 by @zjns\r\n添加显示动态互动信息开关 #1798 co-by @sghhhh\r\n\r\n修复 #1799 co-by @KoishiMoe\r\n修复 Linux Task Icon #1800 by @sghhhh\r\n修复无法通过 AltStore/SideStore 安装 IPA #1803 by @KoishiMoe\r\n修复 bug",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.5.4",
+          "date": "2026-01-15",
+          "localizedDescription": "支持长按/右键图片显示菜单，默认关\r\n调整 #1802 by @My-Responsitories\r\n支持界面缩放 #1800 co-by @sghhhh\r\nSponsorBlock Api 调整 #1797 by @zjns\r\n添加显示动态互动信息开关 #1798 co-by @sghhhh\r\n\r\n修复 #1799 co-by @KoishiMoe\r\n修复 Linux Task Icon #1800 by @sghhhh\r\n修复无法通过 AltStore/SideStore 安装 IPA #1803 by @KoishiMoe\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.4/PiliPlus_ios_1.1.5%2B4543.ipa",
+          "size": 25103780,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.5.3",
           "date": "2026-01-07",
@@ -198,14 +206,6 @@
           "localizedDescription": "支持播放音频 #1336\r\n历史记录显示`已收藏`标识 #1515\r\n支持跳过番剧片头/片尾，默认跳过一次 #1461\r\n支持查看`当前弹幕列表` by @My-Responsitories\r\n\r\n页面优化\r\n弹幕优化 by @My-Responsitories\r\n优化构建 #1510 by @My-Responsitories\r\n\r\n修复bug",
           "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.10/ios-release-no-sign.ipa",
           "size": 24377145,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.1.4.8",
-          "date": "2025-10-05",
-          "localizedDescription": "优化 #1427 #1430\r\n支持鼠标中键切换全屏\r\n支持鼠标右键切换应用内全屏\r\n桌面端全局响应 Esc 键 #1431\r\n支持触控板滑动调节音量、进度\r\n添加 deb 编译 #1422 by @nlsdt\r\n添加 exe 构建 #1454 by @Axiaobo7788\r\n代码优化 #1444 by @My-Responsitories\r\n添加 VSCode 任务流 #1433 by @VillagerTom\r\n\r\n修复 #1418 #1429 #1441 #1442 #1443 #1448 \r\n修复`点赞详情`加载更多 #1435 #1438 by @My-Responsitories",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.8/ios-release-no-sign.ipa",
-          "size": 24298753,
           "minOSVersion": "13.0"
         }
       ],

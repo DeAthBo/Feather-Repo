@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.5.5",
-      "versionDate": "2026-01-25T08:41:50Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.5/PiliPlus_ios_1.1.5%2B4573.ipa",
-      "size": 25108013,
-      "versionDescription": "组件/页面优化\r\n桌面端返回优化\r\n横向滑动优化，支持调节滑动阈值\r\n调整 #1806 #1810 by @My-Responsitories\r\n安卓音频输出优先使用 aaudio #1805 by @My-Responsitories\r\n\r\n修复 Web 端推荐\r\n修复 bug",
-      "changelog": "组件/页面优化\r\n桌面端返回优化\r\n横向滑动优化，支持调节滑动阈值\r\n调整 #1806 #1810 by @My-Responsitories\r\n安卓音频输出优先使用 aaudio #1805 by @My-Responsitories\r\n\r\n修复 Web 端推荐\r\n修复 bug",
+      "version": "1.1.5.6",
+      "versionDate": "2026-01-26T06:46:49Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.6/PiliPlus_ios_1.1.5%2B4577.ipa",
+      "size": 25114723,
+      "versionDescription": "安卓端音频输出回退默认 opensles\r\n安卓端支持选择音频输出 #1811 by @My-Responsitories\r\n其他",
+      "changelog": "安卓端音频输出回退默认 opensles\r\n安卓端支持选择音频输出 #1811 by @My-Responsitories\r\n其他",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.5.6",
+          "date": "2026-01-26",
+          "localizedDescription": "安卓端音频输出回退默认 opensles\r\n安卓端支持选择音频输出 #1811 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.6/PiliPlus_ios_1.1.5%2B4577.ipa",
+          "size": 25114723,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.5.5",
           "date": "2026-01-25",
@@ -198,14 +206,6 @@
           "localizedDescription": "修复bug\r\n\r\n弹幕优化 by @My-Responsitories\r\n\r\n## 1.1.4.11\r\n支持关闭显示托盘图标\r\n支持查看用户共同关注\r\n支持解析关注页 scheme #1566\r\n避免 Windows 运行多个实例 #1574\r\n打包 Linux rpm #1575 by @Axiaobo7788\r\n音频播放页支持获取当前视频播放列表 #1547\r\n全屏按钮右键触发应用内全屏 #1553 #1561 by @My-Responsitories\r\n支持 ctrl、shift、alt + 鼠标滚轮 缩放与平移 #1555 by @My-Responsitories\r\n**移动端**支持点击弹幕悬停，点赞、复制、举报，默认开启 by @My-Responsitories\r\n\r\n弹幕优化 by @My-Responsitories\r\n播放器优化 #1555 by @My-Responsitories\r\n优化保存图片，其他调整 #1562 by @My-Responsitories\r\n\r\n修复bug",
           "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.12/ios-release-no-sign.ipa",
           "size": 24408250,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.1.4.11",
-          "date": "2025-10-16",
-          "localizedDescription": "支持关闭显示托盘图标\r\n支持查看用户共同关注\r\n支持解析关注页 scheme #1566\r\n避免 Windows 运行多个实例 #1574\r\n打包 Linux rpm #1575 by @Axiaobo7788\r\n音频播放页支持获取当前视频播放列表 #1547\r\n支持 ctrl、shift、alt + 鼠标滚轮 缩放与平移 #1555 by @My-Responsitories\r\n**移动端**支持点击弹幕悬停，点赞、复制、举报，默认开启 by @My-Responsitories\r\n\r\n弹幕优化 by @My-Responsitories\r\n播放器优化 #1555 by @My-Responsitories\r\n优化保存图片，其他调整 #1562 by @My-Responsitories\r\n\r\n修复bug",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.11/ios-release-no-sign.ipa",
-          "size": 24403713,
           "minOSVersion": "13.0"
         }
       ],

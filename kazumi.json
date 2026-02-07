@@ -19,12 +19,12 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "version": "1.9.6",
-      "versionDate": "2026-01-30T02:15:06Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.6/Kazumi_ios_1.9.6_no_sign.ipa",
-      "size": 27805229,
-      "versionDescription": "- 修复支持 vulkan 1.4 的安卓设备视频播放崩溃的问题 (#1652) (@Predidit)\r\n- 修复自定义一起看服务器不支持 IPv6 的问题 (#1643) (@keyboard2005)\r\n> [!NOTE]\r\n> 这是 1.9.5 的热修复版本，更多更新日志参考 1.9.5",
-      "changelog": "- 修复支持 vulkan 1.4 的安卓设备视频播放崩溃的问题 (#1652) (@Predidit)\r\n- 修复自定义一起看服务器不支持 IPv6 的问题 (#1643) (@keyboard2005)\r\n> [!NOTE]\r\n> 这是 1.9.5 的热修复版本，更多更新日志参考 1.9.5",
+      "version": "2.0.0",
+      "versionDate": "2026-02-06T05:33:28Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.0/Kazumi_ios_2.0.0_no_sign.ipa",
+      "size": 27665049,
+      "versionDescription": "- 新增离线缓存功能 (#26 #316) (@0Chencc) (@aliferne)\r\n- 新增一起看模式下弹幕聊天功能 (#834) (@UzawaReisaQwQ)\r\n- 新增定时关闭功能 (#832 #1586) (@funnytime75)\r\n- 修复 Andorid8/9 应用白屏的问题 (#1676) (@Predidit)\r\n- 修复自动更新功能特定情况下无法打开文件夹的问题 (#1655) (@UzawaReisaQwQ)\r\n- 修复 Android 键鼠操作时不正确的绿色应用边框 (@axel10)\r\n- 修复 Linux 平台视频解析器的线程安全问题 (@Predidit)\r\n- 适配 iOS 改进生命周期 (@0Chencc)\r\n- 其他UI改进 (@UzawaReisaQwQ)",
+      "changelog": "- 新增离线缓存功能 (#26 #316) (@0Chencc) (@aliferne)\r\n- 新增一起看模式下弹幕聊天功能 (#834) (@UzawaReisaQwQ)\r\n- 新增定时关闭功能 (#832 #1586) (@funnytime75)\r\n- 修复 Andorid8/9 应用白屏的问题 (#1676) (@Predidit)\r\n- 修复自动更新功能特定情况下无法打开文件夹的问题 (#1655) (@UzawaReisaQwQ)\r\n- 修复 Android 键鼠操作时不正确的绿色应用边框 (@axel10)\r\n- 修复 Linux 平台视频解析器的线程安全问题 (@Predidit)\r\n- 适配 iOS 改进生命周期 (@0Chencc)\r\n- 其他UI改进 (@UzawaReisaQwQ)",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Predidit/Kazumi"
@@ -52,6 +52,14 @@
         }
       },
       "versions": [
+        {
+          "version": "2.0.0",
+          "date": "2026-02-06",
+          "localizedDescription": "- 新增离线缓存功能 (#26 #316) (@0Chencc) (@aliferne)\r\n- 新增一起看模式下弹幕聊天功能 (#834) (@UzawaReisaQwQ)\r\n- 新增定时关闭功能 (#832 #1586) (@funnytime75)\r\n- 修复 Andorid8/9 应用白屏的问题 (#1676) (@Predidit)\r\n- 修复自动更新功能特定情况下无法打开文件夹的问题 (#1655) (@UzawaReisaQwQ)\r\n- 修复 Android 键鼠操作时不正确的绿色应用边框 (@axel10)\r\n- 修复 Linux 平台视频解析器的线程安全问题 (@Predidit)\r\n- 适配 iOS 改进生命周期 (@0Chencc)\r\n- 其他UI改进 (@UzawaReisaQwQ)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.0/Kazumi_ios_2.0.0_no_sign.ipa",
+          "size": 27665049,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.9.6",
           "date": "2026-01-30",

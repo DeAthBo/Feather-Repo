@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "1.1.5.7",
-      "versionDate": "2026-01-28T08:01:10Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.7/PiliPlus_ios_1.1.5%2B4584.ipa",
-      "size": 25132786,
-      "versionDescription": "优化滑动\r\n其他",
-      "changelog": "优化滑动\r\n其他",
+      "version": "1.1.6",
+      "versionDate": "2026-02-07T08:48:56Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.6/PiliPlus_ios_1.1.6%2B4626.ipa",
+      "size": 25139197,
+      "versionDescription": "优化滑动手势\r\n优化分区 TAB\r\n优化查看评论笔记\r\n优化调整倍速时卡顿 #1813 by @nakixii\r\n\r\n支持调整自动同步(`autosync`)数值\r\n支持快捷切换账号 #1815 co-by @cnctem\r\n稍后再看/收藏搜索添加`复制`/`移动`按钮 #1822 @cnctem\r\n调整 #1816 #1818 #1821 #1826 by @My-Responsitories\r\n支持基于滑动时间设置滑动弹簧参数 #1816 co-by @My-Responsitories\r\n\r\n修复 #1825 by @Wu-HZ\r\n修复动态页 UP 列表 #1819 by @leset0ng\r\n\r\n其他",
+      "changelog": "优化滑动手势\r\n优化分区 TAB\r\n优化查看评论笔记\r\n优化调整倍速时卡顿 #1813 by @nakixii\r\n\r\n支持调整自动同步(`autosync`)数值\r\n支持快捷切换账号 #1815 co-by @cnctem\r\n稍后再看/收藏搜索添加`复制`/`移动`按钮 #1822 @cnctem\r\n调整 #1816 #1818 #1821 #1826 by @My-Responsitories\r\n支持基于滑动时间设置滑动弹簧参数 #1816 co-by @My-Responsitories\r\n\r\n修复 #1825 by @Wu-HZ\r\n修复动态页 UP 列表 #1819 by @leset0ng\r\n\r\n其他",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "1.1.6",
+          "date": "2026-02-07",
+          "localizedDescription": "优化滑动手势\r\n优化分区 TAB\r\n优化查看评论笔记\r\n优化调整倍速时卡顿 #1813 by @nakixii\r\n\r\n支持调整自动同步(`autosync`)数值\r\n支持快捷切换账号 #1815 co-by @cnctem\r\n稍后再看/收藏搜索添加`复制`/`移动`按钮 #1822 @cnctem\r\n调整 #1816 #1818 #1821 #1826 by @My-Responsitories\r\n支持基于滑动时间设置滑动弹簧参数 #1816 co-by @My-Responsitories\r\n\r\n修复 #1825 by @Wu-HZ\r\n修复动态页 UP 列表 #1819 by @leset0ng\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.6/PiliPlus_ios_1.1.6%2B4626.ipa",
+          "size": 25139197,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.1.5.7",
           "date": "2026-01-28",
@@ -198,14 +206,6 @@
           "localizedDescription": "动态支持`查看更多` #1629\r\n首页直播添加赛事入口 #1628\r\n音频播放支持切换排序方式 #1636\r\n音频播放支持获取合集列表、切换分P\r\n\r\n修复 #1616\r\n修复 #1648 co-by @My-Responsitories",
           "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.14/PiliPlus_ios_1.1.4%2B4282.ipa",
           "size": 24416038,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.1.4.13",
-          "date": "2025-10-19",
-          "localizedDescription": "优化 #1630\r\n听音频支持媒体通知控制 #1635\r\n显示弹幕点赞数 #1640 by @My-Responsitories\r\n支持弹幕空降功能 #1603 by @My-Responsitories\r\n添加 Linux Arm64 构建测试 #1610 by @Axiaobo7788\r\n\r\n修复 #1613 #1615\r\n修复高级弹幕 #1619 by @My-Responsitories",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.13/PiliPlus_ios_1.1.4%2B4266.ipa",
-          "size": 24398659,
           "minOSVersion": "13.0"
         }
       ],

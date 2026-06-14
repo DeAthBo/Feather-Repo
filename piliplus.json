@@ -15,12 +15,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "2.0.9.1",
-      "versionDate": "2026-06-12T04:21:17Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.9.1/PiliPlus_ios_2.0.9%2B5047.ipa",
-      "size": 23386570,
-      "versionDescription": "直播支持切换线路\r\n桌面端支持自定义最大音量 #2199\r\n移动端支持设置播放器音量 #2358\r\n优化视频字幕、截图 #2364 by @My-Responsitories\r\n音乐页面显示全部标签 #2363 by @My-Responsitories\r\n支持自定义播放缓存大小、缓存时长 #2370 by @My-Responsitories\r\n\r\n修复 #2342 #2350 #2351 #2386\r\n修复桌面端富文本输入 #2123 #2215 #2300\r\n修复安卓端验证码窗口显示 #2341 by @My-Responsitories",
-      "changelog": "直播支持切换线路\r\n桌面端支持自定义最大音量 #2199\r\n移动端支持设置播放器音量 #2358\r\n优化视频字幕、截图 #2364 by @My-Responsitories\r\n音乐页面显示全部标签 #2363 by @My-Responsitories\r\n支持自定义播放缓存大小、缓存时长 #2370 by @My-Responsitories\r\n\r\n修复 #2342 #2350 #2351 #2386\r\n修复桌面端富文本输入 #2123 #2215 #2300\r\n修复安卓端验证码窗口显示 #2341 by @My-Responsitories",
+      "version": "2.0.9.2",
+      "versionDate": "2026-06-13T09:40:58Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.9.2/PiliPlus_ios_2.0.9%2B5051.ipa",
+      "size": 23393835,
+      "versionDescription": "修复 bug\r\n其他调整 #2404 by @My-Responsitories",
+      "changelog": "修复 bug\r\n其他调整 #2404 by @My-Responsitories",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -48,6 +48,14 @@
         }
       },
       "versions": [
+        {
+          "version": "2.0.9.2",
+          "date": "2026-06-13",
+          "localizedDescription": "修复 bug\r\n其他调整 #2404 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.9.2/PiliPlus_ios_2.0.9%2B5051.ipa",
+          "size": 23393835,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "2.0.9.1",
           "date": "2026-06-12",
@@ -198,14 +206,6 @@
           "localizedDescription": "优化滑动手势\r\n优化分区 TAB\r\n优化查看评论笔记\r\n优化调整倍速时卡顿 #1813 by @nakixii\r\n\r\n支持调整自动同步(`autosync`)数值\r\n支持快捷切换账号 #1815 co-by @cnctem\r\n稍后再看/收藏搜索添加`复制`/`移动`按钮 #1822 @cnctem\r\n调整 #1816 #1818 #1821 #1826 by @My-Responsitories\r\n支持基于滑动时间设置滑动弹簧参数 #1816 co-by @My-Responsitories\r\n\r\n修复 #1825 by @Wu-HZ\r\n修复动态页 UP 列表 #1819 by @leset0ng\r\n\r\n其他",
           "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.6/PiliPlus_ios_1.1.6%2B4626.ipa",
           "size": 25139197,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.1.5.7",
-          "date": "2026-01-28",
-          "localizedDescription": "优化滑动\r\n其他",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.7/PiliPlus_ios_1.1.5%2B4584.ipa",
-          "size": 25132786,
           "minOSVersion": "13.0"
         }
       ],

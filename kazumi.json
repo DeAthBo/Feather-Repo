@@ -19,12 +19,12 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "version": "2.2.0",
-      "versionDate": "2026-07-09T14:36:25Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.0/Kazumi_ios_2.2.0_no_sign.ipa",
-      "size": 28150602,
-      "versionDescription": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)",
-      "changelog": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)",
+      "version": "2.2.1",
+      "versionDate": "2026-07-16T06:29:26Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.1/Kazumi_ios_2.2.1_no_sign.ipa",
+      "size": 29172455,
+      "versionDescription": "- 重新设计启动向导及多个页面 (@Predidit)\r\n- 新增 windows/macOS 平台缓存目录自定义功能 (#2237) (@NanoShiki @0Chencc)\r\n- 修复 android 平台动态取色不稳定的问题 (@Predidit)\r\n- 增强一起看功能可靠性 (#1710 #1850 #1992) (@ChEnylnti)\r\n- 增强桌面平台播放器快捷键的可靠性 (@Predidit)\r\n- 现在 Linux 平台支持外部播放器功能 (@Predidit)\r\n- 增强规则更新可靠性 (@Predidit)\r\n- 修复调试模式下热重载不可用的问题 (@Predidit)",
+      "changelog": "- 重新设计启动向导及多个页面 (@Predidit)\r\n- 新增 windows/macOS 平台缓存目录自定义功能 (#2237) (@NanoShiki @0Chencc)\r\n- 修复 android 平台动态取色不稳定的问题 (@Predidit)\r\n- 增强一起看功能可靠性 (#1710 #1850 #1992) (@ChEnylnti)\r\n- 增强桌面平台播放器快捷键的可靠性 (@Predidit)\r\n- 现在 Linux 平台支持外部播放器功能 (@Predidit)\r\n- 增强规则更新可靠性 (@Predidit)\r\n- 修复调试模式下热重载不可用的问题 (@Predidit)",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Predidit/Kazumi"
@@ -52,6 +52,14 @@
         }
       },
       "versions": [
+        {
+          "version": "2.2.1",
+          "date": "2026-07-16",
+          "localizedDescription": "- 重新设计启动向导及多个页面 (@Predidit)\r\n- 新增 windows/macOS 平台缓存目录自定义功能 (#2237) (@NanoShiki @0Chencc)\r\n- 修复 android 平台动态取色不稳定的问题 (@Predidit)\r\n- 增强一起看功能可靠性 (#1710 #1850 #1992) (@ChEnylnti)\r\n- 增强桌面平台播放器快捷键的可靠性 (@Predidit)\r\n- 现在 Linux 平台支持外部播放器功能 (@Predidit)\r\n- 增强规则更新可靠性 (@Predidit)\r\n- 修复调试模式下热重载不可用的问题 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.1/Kazumi_ios_2.2.1_no_sign.ipa",
+          "size": 29172455,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "2.2.0",
           "date": "2026-07-09",
@@ -202,14 +210,6 @@
           "localizedDescription": "- 新增 Android 后台缓存功能 (@0Chencc)\r\n- 新增 Android 自定义视频渲染器 (#1670 #1671 #1723) (@Predidit)\r\n- 新增应用启动页选择功能 (#1171) (@aliferne)\r\n- 修复频繁切换视频分集可能抛出错误的问题 (@Predidit)\r\n- 修复单 nvidia 显卡 Linux 设备播放器初始化导致崩溃的问题 (#1722) (@Predidit)\r\n- 改进的播放器错误提示 (@Predidit)\r\n- 其他UI改进 (@Predidit)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.1/Kazumi_ios_2.0.1_no_sign.ipa",
           "size": 27749741,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "2.0.0",
-          "date": "2026-02-06",
-          "localizedDescription": "- 新增离线缓存功能 (#26 #316) (@0Chencc) (@aliferne)\r\n- 新增一起看模式下弹幕聊天功能 (#834) (@UzawaReisaQwQ)\r\n- 新增定时关闭功能 (#832 #1586) (@funnytime75)\r\n- 修复 Andorid8/9 应用白屏的问题 (#1676) (@Predidit)\r\n- 修复自动更新功能特定情况下无法打开文件夹的问题 (#1655) (@UzawaReisaQwQ)\r\n- 修复 Android 键鼠操作时不正确的绿色应用边框 (@axel10)\r\n- 修复 Linux 平台视频解析器的线程安全问题 (@Predidit)\r\n- 适配 iOS 改进生命周期 (@0Chencc)\r\n- 其他UI改进 (@UzawaReisaQwQ)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.0/Kazumi_ios_2.0.0_no_sign.ipa",
-          "size": 27665049,
           "minOSVersion": "13.0"
         }
       ],

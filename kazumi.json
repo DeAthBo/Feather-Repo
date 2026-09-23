@@ -19,12 +19,12 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "version": "2.3.3",
-      "versionDate": "2026-09-15T14:24:43Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.3/Kazumi_ios_2.3.3_no_sign.ipa",
-      "size": 29823335,
-      "versionDescription": "> [!NOTE]\r\n> 这是 2.3.2 的热修复版本，更多更新日志参考 2.3.2",
-      "changelog": "> [!NOTE]\r\n> 这是 2.3.2 的热修复版本，更多更新日志参考 2.3.2",
+      "version": "2.3.4",
+      "versionDate": "2026-09-22T12:48:01Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.4/Kazumi_ios_2.3.4_no_sign.ipa",
+      "size": 29106919,
+      "versionDescription": "- 重新设计的竖屏模式我的页面 (@Predidit)\r\n- 现在追番页面支持卡片样式与列表样式切换 (@Predidit)\r\n- 改进的弹幕检索流程 (@moonrailgun)\r\n- 修复 android 平台偶发的崩溃问题 (@Predidit)\r\n- 修复 macOS x64 应用界面闪烁的问题 (#2577) (@Predidit)",
+      "changelog": "- 重新设计的竖屏模式我的页面 (@Predidit)\r\n- 现在追番页面支持卡片样式与列表样式切换 (@Predidit)\r\n- 改进的弹幕检索流程 (@moonrailgun)\r\n- 修复 android 平台偶发的崩溃问题 (@Predidit)\r\n- 修复 macOS x64 应用界面闪烁的问题 (#2577) (@Predidit)",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Predidit/Kazumi"
@@ -52,6 +52,14 @@
         }
       },
       "versions": [
+        {
+          "version": "2.3.4",
+          "date": "2026-09-22",
+          "localizedDescription": "- 重新设计的竖屏模式我的页面 (@Predidit)\r\n- 现在追番页面支持卡片样式与列表样式切换 (@Predidit)\r\n- 改进的弹幕检索流程 (@moonrailgun)\r\n- 修复 android 平台偶发的崩溃问题 (@Predidit)\r\n- 修复 macOS x64 应用界面闪烁的问题 (#2577) (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.4/Kazumi_ios_2.3.4_no_sign.ipa",
+          "size": 29106919,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "2.3.3",
           "date": "2026-09-15",
@@ -202,14 +210,6 @@
           "localizedDescription": "- 重新设计的历史记录同步功能 (#1999) (@Predidit)\r\n- 优化弹幕性能 (#1146) (#1518) (@Predidit)\r\n- 修复番剧详情页面过渡动画卡顿的问题 (@Predidit)\r\n- 修复番剧海报点击时闪烁的问题 (@Predidit)\r\n- 修复 Android 平台应用后台可能导致播放器画面丢失的问题 (#1921) (@Predidit)\r\n- 用户友好的错误提示 (@Predidit) \r\n- 现在 Android 平台使用 Impeller 渲染引擎 (#821) (@Predidit)\r\n- 其他错误修复 (@LiggMax)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.1/Kazumi_ios_2.1.1_no_sign.ipa",
           "size": 28029329,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "2.1.0",
-          "date": "2026-05-03",
-          "localizedDescription": "- 修复 Bangumi 同步可能导致评分数据清空的问题 (#2034) (@bgzo)\r\n- 修复特定情况下分集评论内容重复的问题 (#2038) (@Predidit)\r\n- 修复 macOS 平台以图搜番功能无法导入图片的问题 (#2032) (@LiggMax)\r\n- 现在可以禁用播放器音量与亮度调节手势 (@B-2U)\r\n- 其他 UI 调整 (@Predidit)\r\n> [!NOTE]\r\n> 这是 2.0.9 的热修复版本，更多更新日志参考 2.0.9",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.0/Kazumi_ios_2.1.0_no_sign.ipa",
-          "size": 27997661,
           "minOSVersion": "13.0"
         }
       ],

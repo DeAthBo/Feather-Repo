@@ -19,12 +19,12 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "version": "2.3.4",
-      "versionDate": "2026-09-22T12:48:01Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.4/Kazumi_ios_2.3.4_no_sign.ipa",
-      "size": 29106919,
-      "versionDescription": "- 重新设计的竖屏模式我的页面 (@Predidit)\r\n- 现在追番页面支持卡片样式与列表样式切换 (@Predidit)\r\n- 改进的弹幕检索流程 (@moonrailgun)\r\n- 修复 android 平台偶发的崩溃问题 (@Predidit)\r\n- 修复 macOS x64 应用界面闪烁的问题 (#2577) (@Predidit)",
-      "changelog": "- 重新设计的竖屏模式我的页面 (@Predidit)\r\n- 现在追番页面支持卡片样式与列表样式切换 (@Predidit)\r\n- 改进的弹幕检索流程 (@moonrailgun)\r\n- 修复 android 平台偶发的崩溃问题 (@Predidit)\r\n- 修复 macOS x64 应用界面闪烁的问题 (#2577) (@Predidit)",
+      "version": "2.3.6",
+      "versionDate": "2026-09-23T11:56:14Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.6/Kazumi_ios_2.3.6_no_sign.ipa",
+      "size": 30406530,
+      "versionDescription": "- 修复部分地区图片资源无法加载的问题 (#2581)\r\n> [!NOTE]\r\n> 这是 2.3.4 的热修复版本，更多更新日志参考 2.3.4",
+      "changelog": "- 修复部分地区图片资源无法加载的问题 (#2581)\r\n> [!NOTE]\r\n> 这是 2.3.4 的热修复版本，更多更新日志参考 2.3.4",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Predidit/Kazumi"
@@ -52,6 +52,14 @@
         }
       },
       "versions": [
+        {
+          "version": "2.3.6",
+          "date": "2026-09-23",
+          "localizedDescription": "- 修复部分地区图片资源无法加载的问题 (#2581)\r\n> [!NOTE]\r\n> 这是 2.3.4 的热修复版本，更多更新日志参考 2.3.4",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.6/Kazumi_ios_2.3.6_no_sign.ipa",
+          "size": 30406530,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "2.3.4",
           "date": "2026-09-22",
@@ -202,14 +210,6 @@
           "localizedDescription": "- 新增规则自定义 JS 验证支持 (@Predidit)\r\n- 新增弹幕时间轴偏移设置，优化弹幕发射逻辑 (#369) (@Predidit)\r\n- 优化系统音量监听与播放器音量反馈 (@ErBWs)\r\n- 优化播放器与视频页面生命周期管理 (@Predidit)\r\n- 修复 macOS 非活跃窗口点击穿透的问题 (@abcghy)\r\n- 修复 macOS 最小化至托盘后应用退出的问题 (@0Chencc)\r\n- 修复 Linux 启动时窗口闪烁的问题 (@Predidit)\r\n- 修复 Android 全屏控制兼容性问题 (@Predidit)\r\n- 修复 Bangumi 特殊标签解析导致搜索结果异常的问题 (@Predidit)\r\n- 修复离线播放器初始化时机问题 (#2070) (@Predidit)\r\n- 适配 flutter 3.44 (@Predidit)\r\n- 其他错误修复与 UI 调整 (@Predidit)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.2/Kazumi_ios_2.1.2_no_sign.ipa",
           "size": 28000908,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "2.1.1",
-          "date": "2026-05-08",
-          "localizedDescription": "- 重新设计的历史记录同步功能 (#1999) (@Predidit)\r\n- 优化弹幕性能 (#1146) (#1518) (@Predidit)\r\n- 修复番剧详情页面过渡动画卡顿的问题 (@Predidit)\r\n- 修复番剧海报点击时闪烁的问题 (@Predidit)\r\n- 修复 Android 平台应用后台可能导致播放器画面丢失的问题 (#1921) (@Predidit)\r\n- 用户友好的错误提示 (@Predidit) \r\n- 现在 Android 平台使用 Impeller 渲染引擎 (#821) (@Predidit)\r\n- 其他错误修复 (@LiggMax)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.1/Kazumi_ios_2.1.1_no_sign.ipa",
-          "size": 28029329,
           "minOSVersion": "13.0"
         }
       ],

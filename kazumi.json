@@ -19,12 +19,12 @@
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
       ],
-      "version": "2.4.4",
-      "versionDate": "2026-11-12T10:27:44Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.4/Kazumi_ios_2.4.4_no_sign.ipa",
-      "size": 30341213,
-      "versionDescription": "- 适配 flutter 3.50",
-      "changelog": "- 适配 flutter 3.50",
+      "version": "2.4.5",
+      "versionDate": "2026-11-21T05:56:21Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.5/Kazumi_ios_2.4.5_no_sign.ipa",
+      "size": 30370674,
+      "versionDescription": "- 重新设计播放页的选集与评论面板\r\n- 番剧详情页的评分编辑在窄屏上改为底部面板\r\n- 追番页头部随列表滚动，竖屏可显示更多内容 (#2859)\r\n- 优化 Material 3 Expressive 组件的选中配色与过渡动画\r\n- 精简各页面的说明文案\r\n- 修复 Linux 下部分 NVIDIA 设备画面偏移到左下角的问题 (#2838)\r\n- 修复 Windows 启动后画面偶发拉伸的问题",
+      "changelog": "- 重新设计播放页的选集与评论面板\r\n- 番剧详情页的评分编辑在窄屏上改为底部面板\r\n- 追番页头部随列表滚动，竖屏可显示更多内容 (#2859)\r\n- 优化 Material 3 Expressive 组件的选中配色与过渡动画\r\n- 精简各页面的说明文案\r\n- 修复 Linux 下部分 NVIDIA 设备画面偏移到左下角的问题 (#2838)\r\n- 修复 Windows 启动后画面偶发拉伸的问题",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Predidit/Kazumi"
@@ -52,6 +52,14 @@
         }
       },
       "versions": [
+        {
+          "version": "2.4.5",
+          "date": "2026-11-21",
+          "localizedDescription": "- 重新设计播放页的选集与评论面板\r\n- 番剧详情页的评分编辑在窄屏上改为底部面板\r\n- 追番页头部随列表滚动，竖屏可显示更多内容 (#2859)\r\n- 优化 Material 3 Expressive 组件的选中配色与过渡动画\r\n- 精简各页面的说明文案\r\n- 修复 Linux 下部分 NVIDIA 设备画面偏移到左下角的问题 (#2838)\r\n- 修复 Windows 启动后画面偶发拉伸的问题",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.5/Kazumi_ios_2.4.5_no_sign.ipa",
+          "size": 30370674,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "2.4.4",
           "date": "2026-11-12",
@@ -202,14 +210,6 @@
           "localizedDescription": "- 重新设计启动向导及多个页面 (@Predidit)\r\n- 新增 windows/macOS 平台缓存目录自定义功能 (#2237) (@NanoShiki @0Chencc)\r\n- 修复 android 平台动态取色不稳定的问题 (@Predidit)\r\n- 增强一起看功能可靠性 (#1710 #1850 #1992) (@ChEnylnti)\r\n- 增强桌面平台播放器快捷键的可靠性 (@Predidit)\r\n- 现在 Linux 平台支持外部播放器功能 (@Predidit)\r\n- 增强规则更新可靠性 (@Predidit)\r\n- 修复调试模式下热重载不可用的问题 (@Predidit)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.1/Kazumi_ios_2.2.1_no_sign.ipa",
           "size": 29172455,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "2.2.0",
-          "date": "2026-07-09",
-          "localizedDescription": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.0/Kazumi_ios_2.2.0_no_sign.ipa",
-          "size": 28150602,
           "minOSVersion": "13.0"
         }
       ],
